@@ -1,0 +1,85 @@
+\documentclass[a4paper]{article}
+\usepackage[dutch]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\usepackage{amssymb}
+\usepackage{algpseudocode}
+\usepackage{varwidth}
+
+\title{Practicum NMB : Eigenwaardenproblemen}
+\author{Jona Beysens \& Arnout Devos}
+\date{vrijdag 25 apil 2014}
+
+\newcommand{\opgave}[1]{\section*{Opgave #1}}
+\newcommand{\dx}{\Delta x}
+\newcommand{\dy}{\Delta y}
+\newcommand{\dz}{\Delta z}
+\newcommand{\dt}{\Delta t}
+
+\begin{document}
+\maketitle
+
+\opgave{1}
+\begin{algorithmic}
+\State Kies $Q^{(0)} \in \mathbb{R}^{m\times d}$ met orthonormale kolommen.
+\For {$k = 1,2,...$}
+    \State $AZ=Q^{(k-1)}$
+    \State $Q^{(k)}R^{(k)}=Z$
+    \State $A^{(k)}=Q^{(k)^{T}}AQ^{(k)}$
+\EndFor
+\State $x = diag(A^{(k)})$
+\end{algorithmic}
+Dit algoritme is de gelijktijdige inverse iteratie voor het berekenen van de d kleinste eigenwaarden en bijhorende eigenvectoren van de matrix $A$. Het is een aangepaste versie van de gelijktijdige iteratie waarbij gebruik gemaakt wordt van de inverse van $A$. De inverse wordt echter nooit expliciet berekend maar er wordt telkens een stelsel opgelost naar $Z$. De eigenwaarden van $A^{-1}$ zijn de inversen van de eigenwaarden van $A$ en de eigenvector horende bij $\lambda_i$ is dezelfde als die horende bij $\frac{1}{\lambda_i}$:
+\begin{align}
+	Ax &= \lambda x \label{eq1}\\ 
+    A^{-1}Ax &= \lambda A^{-1}x \label{eq2}\\
+    \frac{1}{\lambda} &= A^{-1}x \label{eq:const1}
+\end{align}
+De eigenvectoren horende bij de kleinste eigenwaarden van $A$ komen nu in de eerste kolommen van $Q$ te staan. Daardoor zal $A^{(k)}$ convergeren naar een diagonaalmatrix waarvan de eerste diagonaalelementen de kleinste eigenwaarden van $A$ zijn.
+
+\opgave{2}
+\begin{enumerate}[a)] % a), b), c), ...
+\item Als $\mu$ een eigenwaarde van $A$ goed benadert, worden de grootste eigenwaarde van $(A-\mu I)^{-1}$ en het conditiegetal van $(A-\mu I)$ zeer groot. Daardoor zal bij het aanleggen van een perturbatie op de matrix $(A-\mu I)$ de oplossing $\hat{y}$ van het stelsel sterk afwijken van het originele probleem. Maar omdat de grootste eigenwaarde zo dominant is, ligt de oplossing van het geperturbeerd probleem $\hat{y}$ bijna in dezelfde richting als $y$. De grootte van $\hat{y}$ verschilt echter sterk van deze van $y$. Door te normaliseren verschillen $\hat{y}$ en $y$ enkel nog in richting. Dit verschil is miniem.
+\item Om het residu van $Ax-\rho x$ te minimaliseren lossen we het kleinste kwadratenprobleem op:
+\begin{align}
+\displaystyle\min_{\rho\in\mathbb{R}}\Arrowvert Ax-\rho x \Arrowvert _2 \Leftrightarrow x^{T}(Ax-x\rho) &= 0\label{eq1}\\
+ x^TAx &= x^T\rho x \label{eq2}\\
+ \rho&=\frac{x^TAx}{x^Tx} \label{eq:const1}
+\end{align}
+Deze oplossing voor $\rho$ komt overeen met het Ragleigh quoti\"{e}nt $r(x)$.
+\end{enumerate}
+
+
+
+\opgave{3}
+\begin{enumerate}[a)] % a), b), c), ...
+\item \textbf{TODO}
+\item Om, gegeven een symmetrische matrix $A \in \mathbb{R}^{m\times m}$, de eigenwaarde te berekenen die het dichtst bij een getal $\alpha$ gelegen is, kunnen we gebruik maken van \textit{inverse iteratie}. De convergentie is lineair en zal veel sneller gebeuren naarmate $\alpha$ dichter bij de gewilde eigenwaarde gelegen is. De rekenkost is $\mathcal{O} (m^3)$ doordat er een stelsel moet worden opgelost bij het inverteren van de matrix $A-\alpha I$.
+\end{enumerate}
+De oplossing van opgave 2. Zie figuur~\ref{figuurtje}.
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{figuurtje.eps}
+\end{center}
+\caption{Een figuurtje.}
+\label{figuurtje}
+\end{figure}
+\opgave{4}
+@@@AFBEELDING + beschrijving vorm@@@\\
+Indien de matrix niet gereduceerd zou worden naar Hessenberg vorm, moet in elke iteratie van het QR algoritme de factorisatie berekend worden van een volle matrix. Dit vergt $\mathcal{O}(m^{3})$ flops. De convergentie naar machinenauwkeurigheid $\epsilon _{mach}$ gebeurt meestal in $\mathcal{O}(m)$ stappen wat het totale vereiste werk op $\mathcal{O}(m^{4})$ flops brengt. Het rekenwerk van de QR factorisatie van een matrix in Hessenbergvorm bedraagt $\mathcal{O}(m^{2})$ flops. Hierdoor komt het totale werk op $\mathcal{O}(m^{3})$ flops. Aangezien de Hessenbergvorm van de matrix $mat1.txt$ een tridiagonale vorm heeft zal er zelfs nog minder werk nodig zijn. Het rekenwerk voor een QR factorisatie van een tridiagonale matrix is immers $\mathcal{O}(m)$ flops waarmee het totale rekenwerk op $\mathcal{O}(m^{2})$ flops komt.
+\begin{table}
+\begin{center}
+\begin{tabular}{r|llc}
+getal & cijfer & c & c \\\hline
+een & 1 & 1 & 1 \\
+tien & 10 & 10 & 10 \\
+honderd & 100 & 100 & 100
+\end{tabular}
+\end{center}
+\caption{Een tabel}
+\label{tab1}
+\end{table}
+
+\end{document}

@@ -4,6 +4,7 @@ D = A;
 s = sort(eig(A),'descend');
 ready = false;
 i=0;
+error = zeros(50,1);
 while ~ready
     i = i + 1;
     for p=1:(size(A,1)-1)
@@ -19,11 +20,14 @@ while ~ready
         end
     end
     d = sort(diag(D),'descend');
-    residu = max(abs(d-s))
-    if(residu < tol)
+    [residu,index] = max(abs(d-s));
+    residu_rel = residu/norm(s(index))
+    error(i) = residu_rel; 
+    if(residu_rel < tol)
         ready = true;
     end
 end
+semilogy(error);
 steps = i
 
 

@@ -8,6 +8,7 @@
 \usepackage{float}
 \usepackage{algpseudocode}
 \usepackage{varwidth}
+\usepackage[]{mcode}
 
 \title{Practicum NMB : Eigenwaardenproblemen}
 \author{Jona Beysens \& Arnout Devos}
@@ -79,7 +80,13 @@ In figuur ~\ref{fig:figure1} zien we de structuur van de matrix \textit{mat1.txt
 \end{minipage}
 \end{figure}
 
-Indien de matrix niet gereduceerd zou worden naar Hessenberg vorm, moet in elke iteratie van het QR algoritme de factorisatie berekend worden van een volle matrix. Dit vergt $\mathcal{O}(m^{3})$ flops. De convergentie naar machinenauwkeurigheid $\epsilon _{mach}$ gebeurt meestal in $\mathcal{O}(m)$ stappen wat het totale vereiste werk op $\mathcal{O}(m^{4})$ flops brengt. Het rekenwerk van de QR factorisatie van een matrix in Hessenbergvorm bedraagt $\mathcal{O}(m^{2})$ flops. Hierdoor komt het totale werk op $\mathcal{O}(m^{3})$ flops. Aangezien de Hessenbergvorm van de matrix $mat1.txt$ een tridiagonale vorm heeft zal er zelfs nog minder werk nodig zijn. Het rekenwerk voor een QR factorisatie van een tridiagonale matrix is immers $\mathcal{O}(m)$ flops waarmee het totale rekenwerk op $\mathcal{O}(m^{2})$ flops komt.
+Indien de matrix niet gereduceerd zou worden naar Hessenberg vorm, moet in elke iteratie van het QR algoritme de factorisatie berekend worden van een volle matrix. Dit vergt $\mathcal{O}(m^{3})$ flops. De convergentie naar machinenauwkeurigheid $\epsilon _{mach}$ gebeurt meestal in $\mathcal{O}(m)$ stappen wat het totale vereiste werk op $\mathcal{O}(m^{4})$ flops brengt. Het rekenwerk van de QR factorisatie van een matrix in Hessenbergvorm bedraagt $\mathcal{O}(m^{2})$ flops. Hierdoor komt het totale werk op $\mathcal{O}(m^{3})$ flops. Aangezien de Hessenbergvorm van de matrix $mat1.txt$ een tridiagonale vorm heeft zal er zelfs nog minder werk nodig zijn. Het rekenwerk voor een QR factorisatie van een tridiagonale matrix is immers $\mathcal{O}(m)$ flops waarmee het totale rekenwerk op $\mathcal{O}(m^{2})$ flops komt.Test
+
+\boe
+\opgave{9}
+Dit is de code van matlab:
+\lstinputlisting{/opgave_9.m}
+
 \begin{table}
 \begin{center}
 \begin{tabular}{r|llc}

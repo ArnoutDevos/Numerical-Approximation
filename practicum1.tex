@@ -1,6 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage[dutch]{babel}
-\usepackage{amsmath}
+\usepackage{amsthm,amsmath}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{enumerate}
@@ -23,6 +23,7 @@
 \maketitle
 
 \opgave{1}
+
 \begin{algorithmic}
 \State Kies $Q^{(0)} \in \mathbb{R}^{m\times d}$ met orthonormale kolommen.
 \For {$k = 1,2,...$}
@@ -32,23 +33,28 @@
 \EndFor
 \State $x = diag(A^{(k)})$
 \end{algorithmic}
+
 Dit algoritme is de gelijktijdige inverse iteratie voor het berekenen van de d kleinste eigenwaarden en bijhorende eigenvectoren van de matrix $A$. Het is een aangepaste versie van de gelijktijdige iteratie waarbij gebruik gemaakt wordt van de inverse van $A$. De inverse wordt echter nooit expliciet berekend maar er wordt telkens een stelsel opgelost naar $Z$. De eigenwaarden van $A^{-1}$ zijn de inversen van de eigenwaarden van $A$ en de eigenvector horende bij $\lambda_i$ is dezelfde als die horende bij $\frac{1}{\lambda_i}$:
+\begin{proof}
 \begin{align}
 	Ax &= \lambda x \label{eq1}\\ 
     A^{-1}Ax &= \lambda A^{-1}x \label{eq2}\\
     \frac{1}{\lambda} &= A^{-1}x \label{eq:const1}
 \end{align}
+\end{proof}
 De eigenvectoren horende bij de kleinste eigenwaarden van $A$ komen nu in de eerste kolommen van $Q$ te staan. Daardoor zal $A^{(k)}$ convergeren naar een diagonaalmatrix waarvan de eerste diagonaalelementen de kleinste eigenwaarden van $A$ zijn.
 
 \opgave{2}
 \begin{enumerate}[a)] % a), b), c), ...
 \item Als $\mu$ een eigenwaarde van $A$ goed benadert, worden de grootste eigenwaarde van $(A-\mu I)^{-1}$ en het conditiegetal van $(A-\mu I)$ zeer groot. Daardoor zal bij het aanleggen van een perturbatie op de matrix $(A-\mu I)$ de oplossing $\hat{y}$ van het stelsel sterk afwijken van het originele probleem. Maar omdat de grootste eigenwaarde zo dominant is, ligt de oplossing van het geperturbeerd probleem $\hat{y}$ bijna in dezelfde richting als $y$. De grootte van $\hat{y}$ verschilt echter sterk van deze van $y$. Door te normaliseren verschillen $\hat{y}$ en $y$ enkel nog in richting. Dit verschil is miniem.
 \item Om het residu van $Ax-\rho x$ te minimaliseren lossen we het kleinste kwadratenprobleem op:
+\begin{proof}
 \begin{align}
 \displaystyle\min_{\rho\in\mathbb{R}}\Arrowvert Ax-\rho x \Arrowvert _2 \Leftrightarrow x^{T}(Ax-x\rho) &= 0\label{eq1}\\
  x^TAx &= x^T\rho x \label{eq2}\\
  \rho&=\frac{x^TAx}{x^Tx} \label{eq:const1}
 \end{align}
+\end{proof}
 Deze oplossing voor $\rho$ komt overeen met het Ragleigh quoti\"{e}nt $r(x)$.
 \end{enumerate}
 
@@ -78,19 +84,47 @@ In figuur ~\ref{fig:figure1} zien we de structuur van de matrix \textit{mat1.txt
 \label{fig:figure2}
 \end{minipage}
 \end{figure}
-
 Indien de matrix niet gereduceerd zou worden naar Hessenberg vorm, moet in elke iteratie van het QR algoritme de factorisatie berekend worden van een volle matrix. Dit vergt $\mathcal{O}(m^{3})$ flops. De convergentie naar machinenauwkeurigheid $\epsilon _{mach}$ gebeurt meestal in $\mathcal{O}(m)$ stappen wat het totale vereiste werk op $\mathcal{O}(m^{4})$ flops brengt. Het rekenwerk van de QR factorisatie van een matrix in Hessenbergvorm bedraagt $\mathcal{O}(m^{2})$ flops. Hierdoor komt het totale werk op $\mathcal{O}(m^{3})$ flops. Aangezien de Hessenbergvorm van de matrix $mat1.txt$ een tridiagonale vorm heeft zal er zelfs nog minder werk nodig zijn. Het rekenwerk voor een QR factorisatie van een tridiagonale matrix is immers $\mathcal{O}(m)$ flops waarmee het totale rekenwerk op $\mathcal{O}(m^{2})$ flops komt.
-\begin{table}
-\begin{center}
-\begin{tabular}{r|llc}
-getal & cijfer & c & c \\\hline
-een & 1 & 1 & 1 \\
-tien & 10 & 10 & 10 \\
-honderd & 100 & 100 & 100
+\opgave{5}
+Op figuur ~\ref{fig:opgave5} kunnen we duidelijk zien dat de \textit{QR-methode zonder shift} lineair convergeert wat overeenkomt met de theorie.
+\begin{figure}[H]
+\centerline{\includegraphics{pictures/opgave5grafiek.eps}}
+\caption{Convergentie van de verschillende QR methodes: zonder shift, Rayleigh quoti\"{e}nt shift en Wilkinson shift op logaritmische schaal.}
+\label{fig:opgave5}
+\end{figure}
+In tabel \ref{table:tab2} zien we dat voor de matrix mat1 er voor de \textit{QR iteratie met Rayleigh quoti\"{e}nt shift} en de \textit{QR iteratie met Wilkinson shift} er eerst lineaire convergentie optreedt. Wanneer bij deze algoritmes het residu voldoende klein is geworden, verloopt de convergentie meer en meer kubisch. Dit komt overeen met de theorie die zegt dat $q_m^{(k)}$ kubisch convergeert tot een eigenvector. Daardoo convergeert ook het bijbehorende Rayleigh quoti\"{e}nt $r(q_m^{(k)})=A_{mm}^{(k)}$ kubisch. Naarmate het aantal iteraties toeneemt wordt de invloed van de kubische convergentie steeds groter omdat het aantal elementen dat nog moet convergeren naar een eigenwaarde in elke iteratiestap kleiner wordt.
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+stap & zonder shift & Rayleigh quoti\"{e}nt shift & Wilkinson shift \\
+\hline
+1 & 0.763590501238868 & 0.0183598152348892 & 0.0183598152348892 \\
+2 & 0.210113423731095 & 1.23415266649239e-05 & 9.83319921427331e-07 \\
+3 & 0.0808375414586785 & 9.55801949807706e-15 & 1.13833614396543e-18 \\
+\vdots & \vdots &  &  \\
+10 & 0.000192468492953297 &  &  \\
+11 & 8.16489243297394e-05 &  &  \\
+12 & 3.46381851762602e-05 &  &  \\
+13 & 1.46948586913677e-05 &  &  \\
+14 & 6.23416040757481e-06 &  &  \\
+15 & 2.64479155115201e-06 &  &  \\
+16 & 1.12203213434041e-06 &  &  \\
+\vdots & \vdots &  &  \\
+32 & 1.23546560557316e-12 &  &  \\
+33 & 5.24136923576435e-13 &  &  \\
+34 & 2.22361119093024e-13 &  &  \\
+35 & 9.43350202212816e-14 &  &  \\
+\hline
 \end{tabular}
-\end{center}
-\caption{Een tabel}
-\label{tab1}
+\caption{Convergentie van het residu bij de berekening van eigenwaarden volgen verschillende methodes.}
+\label{table:tab2}
 \end{table}
-
+\opgave{6}
+Het verband tussen het \textit{QR-algoritme met Rayleigh quoti\"{e}nt shift} en de \textit{Rayleigh quoti\"{e}nt iteratie}, is dat de veronderstelde waarden voor de eigenvector
+en eigenwaarde bij het QR-algoritme, $\mu$ en $q_m^{(k)}$, dezelfde zijn als de waarden
+die berekend worden bij de Rayleigh quoti\"{e}nt iteratie met startvector $e_m$. Er wordt dus een Rayleigh quoti\"{e}nt iteratie toegepast op de laatste eigenwaarde van
+A. De Rayleigh quoti\"{e}nt iteratie convergeert kubisch, dus de convergentie van het QR algoritme met Rayleigh shift moet ook kubisch zijn. De Rayleigh shift heeft geen invloed op de andere eigenwaarden, dus er wordt verwacht dat deze lineair convergeren net als bij gelijktijdige iteratie het geval is.
+//////EXTRA INFO HIER NOG + VB FIGUUR/////
+\opgave{7}
+\textbf{TODO}
 \end{document}

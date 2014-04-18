@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  12 APR 2014 12:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  18 APR 2014 21:54
 entering extended mode
 **practicum1.tex
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
@@ -49,9 +49,21 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 )
 Package babel Info: Making " an active character on input line 132.
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks14
+\thm@bodyfont=\toks15
+\thm@headfont=\toks16
+\thm@notefont=\toks17
+\thm@headpunct=\toks18
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks19
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -59,7 +71,7 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks14
+\@emptytoks=\toks20
 \ex@=\dimen104
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -89,21 +101,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip10
 \c@parentequation=\count95
 \dspbrk@lvl=\count96
-\tag@help=\toks15
+\tag@help=\toks21
 \row@=\count97
 \column@=\count98
 \maxfields@=\count99
-\andhelp@=\toks16
+\andhelp@=\toks22
 \eqnshift@=\dimen107
 \alignsep@=\dimen108
 \tagshift@=\dimen109
 \tagwidth@=\dimen110
 \totwidth@=\dimen111
 \lineht@=\dimen112
-\@envbody=\toks17
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks18
+\@envbody=\toks23
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -112,7 +124,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks25
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -189,7 +201,7 @@ G,.JBIG2,.JB2,.eps]
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks20
+\@enLab=\toks26
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -204,9 +216,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
-\float@exts=\toks21
+\float@exts=\toks27
 \float@box=\box28
-\@float@everytoks=\toks22
+\@float@everytoks=\toks28
 \@floatcapt=\box29
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
@@ -222,13 +234,13 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count102
 \c@ALG@rem=\count103
 \c@ALG@nested=\count104
-\ALG@tlm=\skip46
-\ALG@thistlm=\skip47
+\ALG@tlm=\skip49
+\ALG@thistlm=\skip50
 \c@ALG@Lnr=\count105
 \c@ALG@blocknr=\count106
 \c@ALG@storecount=\count107
 \c@ALG@tmpcounter=\count108
-\ALG@tmplength=\skip48
+\ALG@tmplength=\skip51
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
@@ -268,12 +280,12 @@ LaTeX Font Info:    ... okay on input line 22.
 \scratchbox=\box31
 \nofMPsegments=\count111
 \nofMParguments=\count112
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count113
 \MPscratchDim=\dimen118
 \MPnumerator=\count114
 \makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks30
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 23.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -286,7 +298,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (2.51079pt too wide) in paragraph at lines 60--61
+Overfull \hbox (2.51079pt too wide) in paragraph at lines 66--67
 []\OT1/cmr/bx/n/10 TODO \OT1/cmr/m/n/10 Ar-nout op-los-sing: Om, ge-ge-ven een 
 sym-me-tri-sche ma-trix $\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[
 ]$\OT1/cmr/m/n/10 ,
@@ -301,18 +313,18 @@ to.pdf>
 (epstopdf)                    size: 31295 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave4Hessenberg1
 -eps-converted-to.pdf pictures/opgave4Hessenberg1.eps>
-(epstopdf)             \includegraphics on input line 69.
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave4Hessenberg1-eps-converted-to.pdf, id=17, 421.575pt x 316.18124
+<pictures/opgave4Hessenberg1-eps-converted-to.pdf, id=18, 421.575pt x 316.18124
 pt>
 File: pictures/opgave4Hessenberg1-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/opgave4Hessenberg1-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave4Hessenberg1-eps-converted-to.pdf used 
-on input line 69.
+on input line 75.
 (pdftex.def)             Requested size: 189.70699pt x 142.28024pt.
 
-Underfull \hbox (badness 1057) in paragraph at lines 70--70
+Underfull \hbox (badness 1057) in paragraph at lines 76--76
 []\OT1/cmr/m/n/10 Figuur 1: Vorm van de ma-trix
  []
 
@@ -325,32 +337,61 @@ to.pdf>
 (epstopdf)                    size: 8301 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave4Hessenberg2
 -eps-converted-to.pdf pictures/opgave4Hessenberg2.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave4Hessenberg2-eps-converted-to.pdf, id=18, 421.575pt x 316.18124
+<pictures/opgave4Hessenberg2-eps-converted-to.pdf, id=19, 421.575pt x 316.18124
 pt>
 File: pictures/opgave4Hessenberg2-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/opgave4Hessenberg2-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave4Hessenberg2-eps-converted-to.pdf used 
-on input line 76.
+on input line 82.
 (pdftex.def)             Requested size: 189.70699pt x 142.28024pt.
- [2 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave4Hess
+ [2]
+Package epstopdf Info: Source file: <pictures/opgave5grafiek.eps>
+(epstopdf)                    date: 2014-04-18 10:28:20
+(epstopdf)                    size: 13815 bytes
+(epstopdf)             Output file: <pictures/opgave5grafiek-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-04-18 10:28:26
+(epstopdf)                    size: 4131 bytes
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave5grafiek-eps
+-converted-to.pdf pictures/opgave5grafiek.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+<pictures/opgave5grafiek-eps-converted-to.pdf, id=24, 421.575pt x 316.18124pt>
+File: pictures/opgave5grafiek-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/opgave5grafiek-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/opgave5grafiek-eps-converted-to.pdf used on i
+nput line 91.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+ [3 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave4Hess
 enberg1-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
-a/NMB/pictures/opgave4Hessenberg2-eps-converted-to.pdf>] [3]
+a/NMB/pictures/opgave4Hessenberg2-eps-converted-to.pdf>]
+Overfull \hbox (14.63976pt too wide) in paragraph at lines 97--119
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave5grafi
+ek-eps-converted-to.pdf>] [5]
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3388 strings out of 493921
- 45765 string characters out of 3144873
- 107532 words of memory out of 3000000
- 6617 multiletter control sequences out of 15000+200000
+ 3463 strings out of 493921
+ 46853 string characters out of 3144873
+ 109632 words of memory out of 3000000
+ 6687 multiletter control sequences out of 15000+200000
  11542 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,9n,26p,852b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,10n,26p,861b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
@@ -365,9 +406,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on practicum1.pdf (3 pages, 182748 bytes).
+Output written on practicum1.pdf (5 pages, 196979 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

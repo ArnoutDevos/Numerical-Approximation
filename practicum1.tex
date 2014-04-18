@@ -8,7 +8,7 @@
 \usepackage{float}
 \usepackage{algpseudocode}
 \usepackage{varwidth}
-
+\usepackage{mcode}
 \title{Practicum NMB : Eigenwaardenproblemen}
 \author{Jona Beysens \& Arnout Devos}
 \date{vrijdag 25 apil 2014}
@@ -62,13 +62,15 @@ Deze oplossing voor $\rho$ komt overeen met het Ragleigh quoti\"{e}nt $r(x)$.
 
 \opgave{3}
 \begin{enumerate}[a)] % a), b), c), ...
-\item \textbf{TODO}
-\item \textbf{TODO} Arnout oplossing: Om, gegeven een symmetrische matrix $A \in \mathbb{R}^{m\times m}$, de eigenwaarde te berekenen die het dichtst bij een getal $\alpha$ gelegen is, kunnen we gebruik maken van \textit{inverse iteratie}. De convergentie is lineair en zal veel sneller gebeuren naarmate $\alpha$ dichter bij de gewilde eigenwaarde gelegen is. De rekenkost is $\mathcal{O} (m^3)$ doordat er een stelsel moet worden opgelost bij het inverteren van de matrix $A-\alpha I$.
+\item \textbf{JONA}
+\item \textbf{JONA} Arnout oplossing: Om, gegeven een symmetrische matrix $A \in \mathbb{R}^{m\times m}$, de eigenwaarde te berekenen die het dichtst bij een getal $\alpha$ gelegen is, kunnen we gebruik maken van \textit{inverse iteratie}. De convergentie is lineair en zal veel sneller gebeuren naarmate $\alpha$ dichter bij de gewilde eigenwaarde gelegen is. De rekenkost is $\mathcal{O} (m^3)$ doordat er een stelsel moet worden opgelost bij het inverteren van de matrix $A-\alpha I$.
 \end{enumerate}
 De oplossing van opgave 2. Zie figuur~\ref{fig:figure1}.
 \opgave{4}
 In figuur ~\ref{fig:figure1} zien we de structuur van de matrix \textit{mat1.txt} na reductie naar de Hessenberg vorm. Doordat de matrix niet perfect symmetrisch is, staan er nog waarden in de bovendriehoek die verschillend zijn van 0. Als we kijken naar de grootte van de waarden in die bovendriehoek dan zijn deze allemaal klein. Als we alle waarden die in absolute waarde kleiner dan $10^{-14}$ zijn gelijk aan 0 stellen dan verkrijgen we de vorm in figuur ~\ref{fig:figure2}. Deze tridiagonale vorm is typisch voor reductie van een symmetrische matrix naar een Hessenberg vorm.
 
+\textbf{/////oplossing2/////}\\
+Indien de matrix niet gereduceerd zou worden naar Hessenberg vorm, moet in elke iteratie van het QR algoritme de factorisatie berekend worden van een volle matrix. Dit vergt $\mathcal{O}(m^{3})$ flops. De convergentie naar machinenauwkeurigheid $\epsilon _{mach}$ gebeurt meestal in $\mathcal{O}(m)$ stappen wat het totale vereiste werk op $\mathcal{O}(m^{4})$ flops brengt. Het rekenwerk van de QR factorisatie van een matrix in Hessenbergvorm bedraagt $\mathcal{O}(m^{2})$ flops. Hierdoor komt het totale werk op $\mathcal{O}(m^{3})$ flops. Aangezien de Hessenbergvorm van de matrix $mat1.txt$ een tridiagonale vorm heeft zal er zelfs nog minder werk nodig zijn. Het rekenwerk voor een QR factorisatie van een tridiagonale matrix is immers $\mathcal{O}(m)$ flops waarmee het totale rekenwerk op $\mathcal{O}(m^{2})$ flops komt.Test
 \begin{figure}[H]
 \begin{minipage}[t]{0.45\linewidth}
 \centering
@@ -126,5 +128,9 @@ die berekend worden bij de Rayleigh quoti\"{e}nt iteratie met startvector $e_m$.
 A. De Rayleigh quoti\"{e}nt iteratie convergeert kubisch, dus de convergentie van het QR algoritme met Rayleigh shift moet ook kubisch zijn. De Rayleigh shift heeft geen invloed op de andere eigenwaarden, dus er wordt verwacht dat deze lineair convergeren net als bij gelijktijdige iteratie het geval is.
 //////EXTRA INFO HIER NOG + VB FIGUUR/////
 \opgave{7}
-\textbf{TODO}
+\textbf{ARNOUT}
+
+\opgave{9}
+Dit is de code van matlab:
+\lstinputlisting{opgave_9.m}
 \end{document}

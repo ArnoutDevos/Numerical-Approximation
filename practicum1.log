@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  18 APR 2014 22:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  22 APR 2014 00:01
 entering extended mode
 **practicum1.tex
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
@@ -505,7 +505,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave5grafi
 ek-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 135.
+Package epstopdf Info: Source file: <pictures/opgave7.eps>
+(epstopdf)                    date: 2014-04-21 23:57:09
+(epstopdf)                    size: 592315 bytes
+(epstopdf)             Output file: <pictures/opgave7-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-21 23:57:18
+(epstopdf)                    size: 118394 bytes
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave7-eps-conver
+ted-to.pdf pictures/opgave7.eps>
+(epstopdf)             \includegraphics on input line 134.
+Package epstopdf Info: Output file is already uptodate.
+
+<pictures/opgave7-eps-converted-to.pdf, id=41, 421.575pt x 316.18124pt>
+File: pictures/opgave7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/opgave7-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/opgave7-eps-converted-to.pdf used on input li
+ne 134.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 140.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
@@ -516,28 +534,28 @@ LaTeX Font Info:    Try loading font information for TS1+pcr on input line 4.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [5]
+) [5] [6 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave
+7-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OML+pcr on input line 26.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
 File: omlpcr.fd 
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
-) [6]
-(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
+)
+[7] (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5324 strings out of 493921
- 74526 string characters out of 3144873
- 143342 words of memory out of 3000000
- 8502 multiletter control sequences out of 15000+200000
+ 5330 strings out of 493921
+ 74717 string characters out of 3144873
+ 140350 words of memory out of 3000000
+ 8507 multiletter control sequences out of 15000+200000
  12566 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,11n,42p,861b,1478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,11n,42p,861b,1482s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
@@ -556,9 +574,9 @@ pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 ublic/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (6 pages, 231386 bytes).
+Output written on practicum1.pdf (7 pages, 348826 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

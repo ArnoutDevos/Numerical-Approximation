@@ -128,8 +128,13 @@ die berekend worden bij de Rayleigh quoti\"{e}nt iteratie met startvector $e_m$.
 A. De Rayleigh quoti\"{e}nt iteratie convergeert kubisch, dus de convergentie van het QR algoritme met Rayleigh shift moet ook kubisch zijn. De Rayleigh shift heeft geen invloed op de andere eigenwaarden, dus er wordt verwacht dat deze lineair convergeren net als bij gelijktijdige iteratie het geval is.
 //////EXTRA INFO HIER NOG + VB FIGUUR/////
 \opgave{7}
-\textbf{ARNOUT}
-
+Als men de \textit{Arnoldi} methode gebruikt op een ijle matrix $A \in \mathbb{R}^{1000\times1000}$ en de Ritz waarden per iteratiestap uitzet dan verkrijgt men Figuur ~\ref{fig:opgave7}.
+Wat opvalt aan het convergentiegedrag is dat wanneer een Ritz waarde in de buurt komt van een eigenwaarde, ze alleen nog dichter bij de eigenwaarde zal gaan liggen in de volgende iteratiestappen. Vroege convergentie is te zien aan de lange rode lijnen die dus niet meer afwijken van een bepaalde waarde. Het convergentiegedrag is lineair en versnelt wanneer er meer eigenwaarden gevonden zijn.
+\begin{figure}
+\centerline{\includegraphics{pictures/opgave7.eps}}
+\caption{Convergentie van de Ritz waarden (rode kruisjes) naar de echte eigenwaarden van A (zwarte cirkels).}
+\label{fig:opgave7}
+\end{figure}
 \opgave{9}
 Dit is de code van matlab:
 \lstinputlisting{opgave_9.m}

@@ -130,8 +130,12 @@ stap & zonder shift & Rayleigh quoti\"{e}nt shift & Wilkinson shift \\
 Het verband tussen het \textit{QR-algoritme met Rayleigh quoti\"{e}nt shift} en de \textit{Rayleigh quoti\"{e}nt iteratie}, is dat de veronderstelde waarden voor de eigenvector
 en eigenwaarde bij het QR-algoritme, $q_m^{(k)}$ en $\mu$ respectievelijk, dezelfde zijn als de waarden
 die berekend worden bij de Rayleigh quoti\"{e}nt iteratie met startvector $e_m$. Er wordt dus een Rayleigh quoti\"{e}nt iteratie toegepast op de laatste eigenwaarde van
-A. De Rayleigh quoti\"{e}nt iteratie convergeert kubisch, dus de convergentie van het QR algoritme met Rayleigh shift moet ook kubisch zijn. De Rayleigh shift heeft geen invloed op de andere eigenwaarden, dus er wordt verwacht dat deze lineair convergeren net als bij gelijktijdige iteratie het geval is.
-//////EXTRA INFO HIER NOG + VB FIGUUR/////
+A. De Rayleigh quoti\"{e}nt iteratie convergeert kubisch, dus de convergentie van het QR algoritme met Rayleigh shift moet ook kubisch zijn. De Rayleigh shift heeft geen invloed op de andere eigenwaarden, dus er wordt verwacht dat deze lineair convergeren net als bij gelijktijdige iteratie het geval is. Dit is te zien in Figuur ~\ref{fig:opgave6}.
+\begin{figure}
+\centerline{\includegraphics{pictures/opgave6.eps}}
+\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift}
+\label{fig:opgave6}
+\end{figure}
 \opgave{7}
 Als men de \textit{Arnoldi} methode gebruikt op een ijle matrix $A \in \mathbb{R}^{1000\times1000}$ en de Ritz waarden per iteratiestap uitzet dan verkrijgt men Figuur ~\ref{fig:opgave7}.
 Wat opvalt aan het convergentiegedrag is dat wanneer een Ritz waarde in de buurt komt van een eigenwaarde, ze alleen nog dichter bij de eigenwaarde zal gaan liggen in de volgende iteratiestappen. Vroege convergentie is te zien aan de lange rode lijnen die dus niet meer afwijken van een bepaalde waarde. Het convergentiegedrag is lineair en versnelt wanneer er meer eigenwaarden gevonden zijn.

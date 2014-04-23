@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  23 APR 2014 10:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  23 APR 2014 18:51
 entering extended mode
 **practicum1.tex
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
@@ -503,8 +503,25 @@ Overfull \hbox (14.63976pt too wide) in paragraph at lines 104--126
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave5grafi
-ek-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pictures/opgave6.eps>
+(epstopdf)                    date: 2014-04-23 18:47:59
+(epstopdf)                    size: 118013 bytes
+(epstopdf)             Output file: <pictures/opgave6-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-23 18:48:39
+(epstopdf)                    size: 185068 bytes
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave6-eps-conver
+ted-to.pdf pictures/opgave6.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+<pictures/opgave6-eps-converted-to.pdf, id=37, 421.575pt x 316.18124pt>
+File: pictures/opgave6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/opgave6-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/opgave6-eps-converted-to.pdf used on input li
+ne 135.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+ [5 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave5graf
+iek-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/opgave7.eps>
 (epstopdf)                    date: 2014-04-21 23:57:09
 (epstopdf)                    size: 592315 bytes
@@ -513,17 +530,17 @@ Package epstopdf Info: Source file: <pictures/opgave7.eps>
 (epstopdf)                    size: 118394 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave7-eps-conver
 ted-to.pdf pictures/opgave7.eps>
-(epstopdf)             \includegraphics on input line 139.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave7-eps-converted-to.pdf, id=44, 421.575pt x 316.18124pt>
+<pictures/opgave7-eps-converted-to.pdf, id=45, 421.575pt x 316.18124pt>
 File: pictures/opgave7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/opgave7-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave7-eps-converted-to.pdf used on input li
-ne 139.
+ne 143.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 145.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 149.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
@@ -535,7 +552,8 @@ LaTeX Font Info:    Try loading font information for TS1+pcr on input line 4.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 ) [6] [7 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave
-7-eps-converted-to.pdf>]
+6-eps-converted-to.pdf>] [8 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/
+NMB/pictures/opgave7-eps-converted-to.pdf>]
 Overfull \hbox (43.80396pt too wide) in paragraph at lines 33--34
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -547,17 +565,17 @@ File: omlpcr.fd
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
-) [8]
+) [9]
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5333 strings out of 493921
- 74781 string characters out of 3144873
- 153350 words of memory out of 3000000
- 8510 multiletter control sequences out of 15000+200000
+ 5339 strings out of 493921
+ 74972 string characters out of 3144873
+ 153358 words of memory out of 3000000
+ 8515 multiletter control sequences out of 15000+200000
  12566 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,11n,42p,1741b,1480s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -579,9 +597,9 @@ pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 ublic/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (8 pages, 355732 bytes).
+Output written on practicum1.pdf (9 pages, 538844 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

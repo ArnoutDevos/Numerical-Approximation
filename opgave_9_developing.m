@@ -1,7 +1,7 @@
 function [ V,D ] = opgave_9( A,tol )
 V = eye(size(A,1));
 D = A;
-% s = sort(eig(A),'descend');
+s = sort(eig(A),'descend');
 ready = false;
 i=0;
 error_diagonal = zeros(50,1);
@@ -31,10 +31,10 @@ while ~ready
     end
       error_off_diagonal(i) = sqrt(norm_off_diagonal)
     % error_off_diagonal(i) = norm_off_diagonal/((size(A,1)*size(A,1))-size(A,1))
-%     d = sort(diag(D),'descend');
-%     [residu,index] = max(abs(d-s));
-%     residu_rel = residu/norm(s(index))
-%     error_diagonal(i) = residu_rel; 
+    d = sort(diag(D),'descend');
+    [residu,index] = max(abs(d-s));
+    residu_rel = residu/norm(s(index))
+    error_diagonal(i) = residu_rel; 
 %     if(residu_rel < tol)
 %         ready = true;
 %     end
@@ -44,6 +44,7 @@ if(error_off_diagonal(i) < tol)
 end
 
 end
+offset  = error_diagonal(5)-error_off_diagonal(5)
 semilogy(error_diagonal,'r');
 hold on
 semilogy(error_off_diagonal,'g');

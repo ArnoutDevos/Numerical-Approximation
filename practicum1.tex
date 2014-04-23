@@ -9,6 +9,8 @@
 \usepackage{algpseudocode}
 \usepackage{varwidth}
 \usepackage{mcode}
+
+
 \title{Practicum NMB : Eigenwaardenproblemen}
 \author{Jona Beysens \& Arnout Devos}
 \date{vrijdag 25 apil 2014}
@@ -61,12 +63,13 @@ Deze oplossing voor $\rho$ komt overeen met het Ragleigh quoti\"{e}nt $r(x)$.
 
 
 \opgave{3}
+Voor beide oefeningen worden \textit{Rayleigh inverse iteratie} en \textit{QR algoritme met shifts} verkozen boven de anderen. De maximale convergentiesnelheid van deze methodes is cubisch. Bovendien is hun rekenkost aanvaardbaar. \textit{Power iteratie}, \textit{Inverse iteratie zonder shift} en \textit{QR algoritme zonder shift} leveren slechts lineaire convergentie op. Daarom worden deze niet verder in rekening gebracht. 
 \begin{enumerate}[a)] % a), b), c), ...
 \item 
-Aangezien er een schatting voor de eigenvector gegeven is, is de Rayleigh inverse iteratie een geschikte methode om de bijhorende eigenwaarde te vinden. Er dient maar 1 eigenwaarde berekend te worden. Deze methode zal bovendien zorgen snelle convergentie. De verwachte convergentiesnelheid is immers maximaal cubisch. Dit wordt aangetoond in Theorema 27.3 //VERWIJZING//. Om de rekenkost van de iteratie te beperken wordt de symmetrische matrix $A \in \mathbb{R}^{m\times m}$ getransformeerd tot een tridiagonale matrix. Hiervoor wordt Householder triangularisatie gebruikt. In het algemeen bedraagt totale hoeveelheid rekenwerk hiervoor  $10/3*m^3$ flops. Aangezien gebruikt gemaakt kan worden van symmetrie en spaarsheid kan dit werk gereduceerd worden tot $4/3*m^3$ flops. In elke stap van de Rayleigh inverse iteratie moet er een stelsel worden opgelost. Dit bepaalt het meeste werk in elke stap. Dit vraagt in het algemeen $\mathcal{O} (m^3)$ flops. Door gebruik te maken van een vereenvoudigde vorm van Gaussiaanse eliminatie (Thomas Algoritme)kan het rekenwerk gereduceerd worden tot $\mathcal{O} (m)$ flops. Ook wordt de oplossing van het stelsel genormaliseerd. Dit vraagt $n$ flops. Als laatste wordt het Rayleigh quoti\"ent berekend. $A*v$ zorgt voor $5*n$ flops(3 vermenigvuldigingen en 2 optellingen per element). $v^{T}*A*v$ kost dan uiteindelijk nog $2*n-1$ flops($n$ vermenigvuldigingen en $n-1$ optellingen). Het Rayleigh quoti\"ent vraagt dus $7*n-1$ flops. Als convergentie bereikt wordt in $\mathcal{O} (m)$ stappen bedraagt het totale rekenwerk na de tridiagonalisatie dus globaal $\mathcal{O} (m^2)$.
+Aangezien er een schatting voor de eigenvector gegeven is, is de \textit{Rayleigh inverse iteratie} een geschikte methode om de bijhorende eigenwaarde te vinden. Er dient maar 1 eigenwaarde berekend te worden. Deze methode zal bovendien zorgen voor snelle convergentie. De verwachte convergentiesnelheid is immers maximaal cubisch. Dit wordt aangetoond in \textbf{Theorema 27.3 Trefethen and Bau}. Om de rekenkost van de iteratie te beperken wordt de symmetrische matrix $A \in \mathbb{R}^{m\times m}$ getransformeerd tot een tridiagonale matrix. Hiervoor wordt Householder triangularisatie gebruikt. In het algemeen bedraagt totale hoeveelheid rekenwerk hiervoor  $\frac{10m^{3}}{3}$ flops. Aangezien gebruikt gemaakt kan worden van symmetrie en spaarsheid kan dit werk gereduceerd worden tot $\frac{4m^{3}}{3}$ flops. In elke stap van de \textit{Rayleigh inverse iteratie} wordt een stelsel opgelost. Dit zorgt voor het meeste werk in elke stap. Dit vraagt in het algemeen $\mathcal{O} (m^3)$ flops. Door gebruik te maken van een vereenvoudigde vorm van Gaussiaanse eliminatie (\textit{Thomas algoritme}) kan het rekenwerk gereduceerd worden tot $\mathcal{O}(m)$ flops. Ook wordt de oplossing van het stelsel genormaliseerd. Dit vraagt $n$ flops. Als laatste wordt het \textit{Rayleigh quoti\"ent} berekend. $Av$ zorgt ongeveer voor $5n$ flops (maximaal 3 vermenigvuldigingen en 2 optellingen per element). $v^{T}Av$ kost dan uiteindelijk nog $2n-1$ flops($n$ vermenigvuldigingen en $n-1$ optellingen). \textit{Rayleigh quoti\"ent} vraagt dus ongeveer $7n-1$ flops. Als convergentie bereikt wordt in $\mathcal{O}(m)$ stappen bedraagt het totale rekenwerk na de tridiagonalisatie dus globaal $\mathcal{O} (m^2)$.
 
 \item
-Om de eigenwaarde te bepalen die zich het dichtst bij een getal $alpha$ bevindt, is het QR algoritme met shifts een geschikte methode. het QR algoritme berekent alle eigenwaarden. Hierdoor kunnen we makkelijk zien hoe ver de minder dichte eigenwaarden van $alhpa$ liggen. We kunnen $alpha$ als initi\"ele benadering voor de te zoeken eigenwaarde gebruiken. In elke iteratie kunnen we de benadering verbeteren door het Rayleigh quoti\"ent te nemen. Het QR algortime convergeert maximaal cubisch naar de gezochte eigenwaarde. Het convergeert lineair naar de andere eigenwaarden. Om het rekenwerk te verminderen (zie opgave 4), is ook hier tridiagonalisatie van $A$ vereist. Dit vergt $4/3*m^3$ flops(zie boven). In elke stap van het algoritme moet een QR factorisatie berekend worden. De vector $v$ die nodig is voor het berekenen van de Householder reflector heeft slechts 2 elementen verschillend van 0. Het opstellen van van de reflector vraagt ongeveer $20*n$ flops (2 normen en een deling). Bij het toepassen van de reflectoren op de matrix A worden er door elke reflector ongeveer 5 elementen aangepast. Hiervoor zijn 3 flops per element nodig (2 vermenigvuldigingen en 1 optelling) dus 15 flops in totaal per reflector. Na $n-1$ reflectoren wordt de bovendriehoeksmatrix bekomen dus in totaal zijn er ongeveer $15*(n-1)$ flops vereist. Ook moet er in elke stap van het algoritme $R*Q$ berekend worden. Ook deze bewerking vraagt $\mathcal{O} (m)$ rekenwerk omdat hier de householder reflectoren kunnen gebruikt worden om het product uit te rekenen. Indien convergentie in $\mathcal{O} (m)$ stappen bereikt wordt, zal ook deze methode buiten de tridiagonalisatie in totaal $\mathcal{O} (m^2)$ rekenwerk vragen. 
+Om de eigenwaarde te bepalen die zich het dichtst bij een getal $\alpha$ bevindt, is het \textit{QR algoritme met shifts} een geschikte methode. Er is namelijk geen benadering voor een eigenvector gegeven, wat voor de \textit{Rayleigh inverse iteratie} wel noodzakelijk is (al zouden we een willekeurige startvector kunnen kiezen). Het \textit{QR algoritme met shifts} berekent alle eigenwaarden. Hierdoor kunnen we makkelijk zien hoe ver de minder dichte eigenwaarden zich van $\alpha$ bevinden. We kunnen $\alpha$ als initi\"ele benadering voor de te zoeken eigenwaarde gebruiken. In elke iteratie verbeteren we de benadering door het Rayleigh quoti\"ent te nemen. Het \textit{QR algoritme met shifts} convergeert maximaal cubisch naar de gezochte eigenwaarde. Het convergeert lineair naar de andere eigenwaarden. Om het rekenwerk te verminderen (zie opgave 4), is ook hier tridiagonalisatie van $A$ vereist. Dit vergt  $\frac{4m^{3}}{3}$ flops (zie a). In elke stap van het algoritme moet een QR factorisatie berekend worden. De vector $v$ die nodig is voor het berekenen van de Householder reflector heeft slechts 2 elementen verschillend van 0. Het opstellen van van de reflector vraagt ongeveer $20n$ flops (2 normen en een deling). Bij het toepassen van de reflectoren op de matrix A worden er door elke reflector maximaal 5 elementen aangepast. Hiervoor zijn 3 flops per element nodig (2 vermenigvuldigingen en 1 optelling).Dit levert dus 15 flops in totaal per reflector. Na $n-1$ reflectoren wordt de bovendriehoeksmatrix bekomen dus in totaal zijn er ongeveer $15(n-1)$ flops vereist. Ook moet er in elke stap van het algoritme $RQ$ berekend worden. Ook deze bewerking vraagt $\mathcal{O}(m)$ rekenwerk omdat hier de householder reflectoren kunnen gebruikt worden om het product uit te rekenen. Indien convergentie in $\mathcal{O}(m)$ stappen gebeurt, zal ook deze methode buiten de tridiagonalisatie in totaal $\mathcal{O} (m^2)$ rekenwerk vragen. Merk op dat er bij deze berekening van de rekenkost geen rekening gehouden werd met het bijhouden van de geaccumuleerde eigenvector matrix $Q$. Er werd immers geen eigenvector gevraagd in de opgave.
 
 \item \textbf{JONA} Arnout oplossing: Om, gegeven een symmetrische matrix $A \in \mathbb{R}^{m\times m}$, de eigenwaarde te berekenen die het dichtst bij een getal $\alpha$ gelegen is, kunnen we gebruik maken van \textit{inverse iteratie}. De convergentie is lineair en zal veel sneller gebeuren naarmate $\alpha$ dichter bij de gewilde eigenwaarde gelegen is. De rekenkost is $\mathcal{O} (m^3)$ doordat er een stelsel moet worden opgelost bij het inverteren van de matrix $A-\alpha I$.
 \end{enumerate}
@@ -144,7 +147,79 @@ Wat opvalt aan het convergentiegedrag is dat wanneer een Ritz waarde in de buurt
 \caption{Convergentie van de Ritz waarden (rode kruisjes) naar de echte eigenwaarden van A (zwarte cirkels).}
 \label{fig:opgave7}
 \end{figure}
+
+\opgave{8}
+\begin{algorithmic}
+\State
+\begin{align*}
+&J^{T}
+\begin{bmatrix} 
+a & d \\
+d & b 
+\end{bmatrix}
+J
+=
+\begin{bmatrix} 
+\neq 0 & 0 \\
+0 & \neq 0
+\end{bmatrix}\\
+&\begin{bmatrix} 
+c & -s \\
+s & c
+\end{bmatrix}
+\begin{bmatrix} 
+a & d \\
+d & b 
+\end{bmatrix}
+\begin{bmatrix} 
+c & s \\
+-s & c 
+\end{bmatrix}
+=
+\begin{bmatrix} 
+\neq 0 & 0 \\
+0 & \neq 0
+\end{bmatrix}\\
+&\Leftrightarrow d.(c^2-s^2)+(a-b).c.s = 0 \\
+ &\Leftrightarrow d. cos(2\theta)+(a-b) \frac{sin(2\theta)}{2}= 0\\
+ &\Leftrightarrow \frac{sin(2\theta)}{cos(2\theta)} = \frac{2.d}{b-a}\\
+ &\Leftrightarrow tan(2\theta) = \frac{2.d}{b-a}
+\end{align*}
+
+\end{algorithmic}
 \opgave{9}
 Dit is de code van matlab:
 \lstinputlisting{opgave_9.m}
+
+
+\begin{table}[h]
+\begin{tabular}{|l|l|}
+\hline
+stap & norm van niet-diagonaal elementen\\
+\hline
+1 & 1.969312339842242e+01\\
+2 & 7.532976092556866e+00\\
+3 & 2.243630988647221e+00\\
+4 & 4.492085536126931e-01\\
+5 & 1.037550717669171e-02\\
+6 & 3.073093957017962e-05\\
+7 & 8.022616206681419e-11\\
+8 & 1.988610766134013e-14\\
+\hline
+\end{tabular}
+\caption{Convergentie de norm van de niet-diagonaal elementen van de matrix D naar 0 bij een opgegeven $tol =10^{-13}$.}
+\label{table:tab2}
+\end{table}
+\opgave{10}
+Om de eigenwaarden tot op een nauwkeurigheid van $10^{-13}$ te berekenen convergeert het algoritme in 8 stappen. Als stopconditie wordt de norm van de niet-diagonaal elementen gebruikt. Deze wordt berekend als volgt: $\epsilon = \sqrt[2]{\mathop{\sum\sum}_{t\neq u} D(t,u)^2}$. Hierbij stelt $D$ de matrix voor waarop de jacobi iteratie toegepast wordt in elke stap. Opdat deze stopconditie de juiste resultaten zou leveren, wordt $\epsilon$ vergeleken met de relatieve fout op de eigenwaarden van $A$ (zie figuur~\ref{fig:figure3}). Uit deze figuur blijkt dat de convergentie van de eigenwaarden van $D$ naar die van $A$ even snel gebeurt als de convergentie van $\epsilon$ naar 0. Meer nog, de fout op de eigenwaarden is steeds ongeveer $10^{-2}$ kleiner dan $\epsilon$. Dus als we $\epsilon$ tot op een nauwkeurigheid van \textit{tol} berekenen, zullen de eigenwaarden minstens even nauwkeurig zijn. Er wordt dus steeds voldoende werk geleverd. 
+In theorie is de convergentiesnelheid van de methode van Jacobi meer dan lineair en maximal kwadratisch. In praktijk zien we hetvolgende (zie tabel~\ref{table:tab2}): tot de 4e stap is er lineaire convergentie. Hierna verdubbelt het aantal juiste beduidende cijfers in elke stap. Deze kwadratische convergentie kan ook gezien worden in figuur~\ref{fig:figure3}: de helling van de fout steeds toe (meer negatief).
+De rekenkost is de volgende: elke stap worden er door $D$ rechts te vermenigvuldigen met $J$ twee kolommen aangepast. Dit vergt $3m$   flops per kolom. Ook wordt $D$ links vermenigvuldigd met $J^{T}$.  Dit zorgt voor een aanpassing van twee rijen van A en vraagt $3m$ flops per rij. In elke stap is er dus $6m$ flops rekenwerk. In de volgende stap gaan de huidig gemaakte nullen verloren maar de amplitude van elementen wordt wel kleiner. Hierdoor kan er convergentie optreden. Bij een standaard rij per rij ordening wordt er in elke “sweep” $\frac{m(m-1)}{2}$ keer het product $J^{T}D J$ berekend waardoor het totale rekenwerk van een “sweep” $\mathcal{O}(m^{3})$ is. Bij kwadratische convergentie zijn er dus in totaal $\mathcal{O}(m^{3}log(|log(\epsilon_{machine})|)$ flops noodzakelijk.
+
+
+%\begin{figure}
+%\centerline{\includegraphics{pictures/opgave10.eps}}
+%\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift}
+%\label{fig:figure 3}
+%\end{figure}
+
 \end{document}

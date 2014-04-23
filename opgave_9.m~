@@ -1,7 +1,7 @@
 function [ V,D ] = opgave_9( A,tol )
 V = eye(size(A,1));
 D = A;
-s = sort(eig(A),'descend');
+% s = sort(eig(A),'descend');
 ready = false;
 i=0;
 error_diagonal = zeros(50,1);

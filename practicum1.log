@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  23 APR 2014 23:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  24 APR 2014 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,7 +541,7 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 192.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./opgave_9.m
+) (./jacobi.m
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 11.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
@@ -589,7 +589,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5431 strings out of 493308
- 76035 string characters out of 6137822
+ 76027 string characters out of 6137822
  165068 words of memory out of 5000000
  8771 multiletter control sequences out of 15000+600000
  12566 words of font info for 49 fonts, out of 8000000 for 9000
@@ -615,7 +615,7 @@ s/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (10 pages, 545995 bytes).
+Output written on practicum1.pdf (10 pages, 545774 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  24 APR 2014 21:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  24 APR 2014 21:14
 entering extended mode
 **practicum1.tex
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
@@ -583,7 +583,30 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-[9] [10] (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
+[9]
+Package epstopdf Info: Source file: <pictures/opgave10.eps>
+(epstopdf)                    date: 2014-04-24 11:06:34
+(epstopdf)                    size: 16592 bytes
+(epstopdf)             Output file: <pictures/opgave10-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave10-eps-conve
+rted-to.pdf pictures/opgave10.eps>
+(epstopdf)             \includegraphics on input line 221.
+runsystem(epstopdf --outfile=pictures/opgave10-eps-converted-to.pdf pictures/op
+gave10.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <pictures/opgave10-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-24 21:14:51
+(epstopdf)                    size: 4181 bytes.
+ <pictures/opgave10-eps-converted-to.pdf, id=72, 561.09625pt x 421.575pt>
+File: pictures/opgave10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/opgave10-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/opgave10-eps-converted-to.pdf used on input l
+ine 221.
+(pdftex.def)             Requested size: 561.09488pt x 421.57396pt.
+ [10] [11 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgav
+e10-eps-converted-to.pdf>]
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -592,10 +615,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5331 strings out of 493921
- 74948 string characters out of 3144873
+ 5337 strings out of 493921
+ 75145 string characters out of 3144873
  151358 words of memory out of 3000000
- 8507 multiletter control sequences out of 15000+200000
+ 8512 multiletter control sequences out of 15000+200000
  12566 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,14n,42p,1061b,1153s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -619,9 +642,9 @@ c/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (10 pages, 539798 bytes).
+Output written on practicum1.pdf (11 pages, 542684 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

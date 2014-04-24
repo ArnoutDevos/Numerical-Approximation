@@ -217,10 +217,10 @@ In theorie is de convergentiesnelheid van de methode van Jacobi meer dan lineair
 De rekenkost is de volgende: elke stap worden er door $D$ rechts te vermenigvuldigen met $J$ twee kolommen aangepast. Dit vergt $3m$   flops per kolom. Ook wordt $D$ links vermenigvuldigd met $J^{T}$.  Dit zorgt voor een aanpassing van twee rijen van A en vraagt $3m$ flops per rij. In elke stap is er dus $6m$ flops rekenwerk. In de volgende stap gaan de huidig gemaakte nullen verloren maar de amplitude van elementen wordt wel kleiner. Hierdoor kan er convergentie optreden. Bij een standaard rij per rij ordening wordt er in elke “sweep” $\frac{m(m-1)}{2}$ keer het product $J^{T}D J$ berekend waardoor het totale rekenwerk van een “sweep” $\mathcal{O}(m^{3})$ is. Bij kwadratische convergentie zijn er dus in totaal $\mathcal{O}(m^{3}log(|log(\epsilon_{machine})|)$ flops noodzakelijk.
 
 
-%\begin{figure}
-%\centerline{\includegraphics{pictures/opgave10.eps}}
-%\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift}
-%\label{fig:figure 3}
-%\end{figure}
+\begin{figure}
+\centerline{\includegraphics{pictures/opgave10.eps}}
+\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift}
+\label{fig:figure 3}
+\end{figure}
 
 \end{document}

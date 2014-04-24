@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  24 APR 2014 11:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  24 APR 2014 21:06
 entering extended mode
 **practicum1.tex
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
@@ -427,12 +427,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (0.69136pt too wide) in paragraph at lines 74--75
-[]\OT1/cmr/bx/n/10 JONA \OT1/cmr/m/n/10 Ar-nout op-los-sing: Om, ge-ge-ven een 
-sym-me-tri-sche ma-trix $\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[
-]$\OT1/cmr/m/n/10 ,
- []
-
 Package epstopdf Info: Source file: <pictures/opgave4Hessenberg1.eps>
 (epstopdf)                    date: 2014-04-12 11:10:15
 (epstopdf)                    size: 21425 bytes
@@ -442,7 +436,7 @@ to.pdf>
 (epstopdf)                    size: 31295 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave4Hessenberg1
 -eps-converted-to.pdf pictures/opgave4Hessenberg1.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/opgave4Hessenberg1-eps-converted-to.pdf, id=23, 421.575pt x 316.18124
@@ -450,10 +444,10 @@ pt>
 File: pictures/opgave4Hessenberg1-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/opgave4Hessenberg1-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave4Hessenberg1-eps-converted-to.pdf used 
-on input line 85.
+on input line 87.
 (pdftex.def)             Requested size: 189.70699pt x 142.28024pt.
 
-Underfull \hbox (badness 1057) in paragraph at lines 86--86
+Underfull \hbox (badness 1057) in paragraph at lines 88--88
 []\OT1/cmr/m/n/10 Figuur 1: Vorm van de ma-trix
  []
 
@@ -466,7 +460,7 @@ to.pdf>
 (epstopdf)                    size: 8301 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave4Hessenberg2
 -eps-converted-to.pdf pictures/opgave4Hessenberg2.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/opgave4Hessenberg2-eps-converted-to.pdf, id=24, 421.575pt x 316.18124
@@ -474,7 +468,7 @@ pt>
 File: pictures/opgave4Hessenberg2-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/opgave4Hessenberg2-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave4Hessenberg2-eps-converted-to.pdf used 
-on input line 92.
+on input line 94.
 (pdftex.def)             Requested size: 189.70699pt x 142.28024pt.
  [3]
 Package epstopdf Info: Source file: <pictures/opgave5grafiek.eps>
@@ -486,7 +480,7 @@ df>
 (epstopdf)                    size: 4131 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave5grafiek-eps
 -converted-to.pdf pictures/opgave5grafiek.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/opgave5grafiek-eps-converted-to.pdf, id=28, 421.575pt x 316.18124pt>
@@ -494,12 +488,10 @@ File: pictures/opgave5grafiek-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/opgave5grafiek-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave5grafiek-eps-converted-to.pdf used on i
-nput line 101.
+nput line 102.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
- [4 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave4Hess
-enberg1-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
-a/NMB/pictures/opgave4Hessenberg2-eps-converted-to.pdf>]
-Overfull \hbox (14.63976pt too wide) in paragraph at lines 107--129
+
+Overfull \hbox (14.63976pt too wide) in paragraph at lines 108--130
 [][] 
  []
 
@@ -514,44 +506,49 @@ Package epstopdf Info: Source file: <pictures/opgave6.eps>
 (epstopdf)                    size: 185068 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave6-eps-conver
 ted-to.pdf pictures/opgave6.eps>
-(epstopdf)             \includegraphics on input line 138.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/opgave6-eps-converted-to.pdf, id=38, 421.575pt x 316.18124pt>
+<pictures/opgave6-eps-converted-to.pdf, id=29, 421.575pt x 316.18124pt>
 File: pictures/opgave6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/opgave6-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave6-eps-converted-to.pdf used on input li
-ne 138.
+ne 139.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
- [5 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave5graf
-iek-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <pictures/opgave7.eps>
-(epstopdf)                    date: 2014-04-21 23:57:09
-(epstopdf)                    size: 592315 bytes
-(epstopdf)             Output file: <pictures/opgave7-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-21 23:57:18
-(epstopdf)                    size: 118394 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/opgave7-eps-conver
-ted-to.pdf pictures/opgave7.eps>
-(epstopdf)             \includegraphics on input line 146.
+Package epstopdf Info: Source file: <pictures/opgave7arnoldiBeter.eps>
+(epstopdf)                    date: 2014-04-24 20:50:55
+(epstopdf)                    size: 537169 bytes
+(epstopdf)             Output file: <pictures/opgave7arnoldiBeter-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2014-04-24 20:50:59
+(epstopdf)                    size: 97789 bytes
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave7arnoldiBete
+r-eps-converted-to.pdf pictures/opgave7arnoldiBeter.eps>
+(epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave7-eps-converted-to.pdf, id=46, 421.575pt x 316.18124pt>
-File: pictures/opgave7-eps-converted-to.pdf Graphic file (type pdf)
+<pictures/opgave7arnoldiBeter-eps-converted-to.pdf, id=30, 420.57124pt x 316.18
+124pt>
+File: pictures/opgave7arnoldiBeter-eps-converted-to.pdf Graphic file (type pdf)
 
-<use pictures/opgave7-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/opgave7-eps-converted-to.pdf used on input li
-ne 146.
-(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
- [6] [7 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave6
--eps-converted-to.pdf>] [8 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/N
-MB/pictures/opgave7-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 192.
+ <use pictures/opgave7arnoldiBeter-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/opgave7arnoldiBeter-eps-converted-to.pdf used
+ on input line 147.
+(pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
+ [4 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave4Hess
+enberg1-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
+a/NMB/pictures/opgave4Hessenberg2-eps-converted-to.pdf>] [5 <C:/Users/Public/Do
+cuments/KUL/3efase/nmb/practica/NMB/pictures/opgave5grafiek-eps-converted-to.pd
+f>] [6 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave6-
+eps-converted-to.pdf>] [7] [8 <C:/Users/Public/Documents/KUL/3efase/nmb/practic
+a/NMB/pictures/opgave7arnoldiBeter-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 193.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\opgave_9.m
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\jacobi.m
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 11.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
@@ -569,13 +566,10 @@ LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 30.
 )
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:figure3' on page 9 undefined on input line 214.
-
-
 LaTeX Warning: Reference `fig:figure3' on page 9 undefined on input line 215.
+
+
+LaTeX Warning: Reference `fig:figure3' on page 9 undefined on input line 216.
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -599,12 +593,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5331 strings out of 493921
- 74896 string characters out of 3144873
- 156359 words of memory out of 3000000
+ 74948 string characters out of 3144873
+ 151358 words of memory out of 3000000
  8507 multiletter control sequences out of 15000+200000
  12566 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,14n,42p,2191b,1153s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,14n,42p,1061b,1153s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
@@ -625,7 +619,7 @@ c/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (10 pages, 563838 bytes).
+Output written on practicum1.pdf (10 pages, 539798 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

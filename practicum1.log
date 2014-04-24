@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  24 APR 2014 21:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  24 APR 2014 21:27
 entering extended mode
 **practicum1.tex
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
@@ -498,22 +498,23 @@ Overfull \hbox (14.63976pt too wide) in paragraph at lines 108--130
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package epstopdf Info: Source file: <pictures/opgave6.eps>
-(epstopdf)                    date: 2014-04-23 18:47:59
-(epstopdf)                    size: 118013 bytes
-(epstopdf)             Output file: <pictures/opgave6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-23 18:48:39
-(epstopdf)                    size: 185068 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/opgave6-eps-conver
-ted-to.pdf pictures/opgave6.eps>
+Package epstopdf Info: Source file: <pictures/opgave6Beter.eps>
+(epstopdf)                    date: 2014-04-24 21:25:53
+(epstopdf)                    size: 31250 bytes
+(epstopdf)             Output file: <pictures/opgave6Beter-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2014-04-24 21:26:11
+(epstopdf)                    size: 32810 bytes
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave6Beter-eps-c
+onverted-to.pdf pictures/opgave6Beter.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/opgave6-eps-converted-to.pdf, id=29, 421.575pt x 316.18124pt>
-File: pictures/opgave6-eps-converted-to.pdf Graphic file (type pdf)
+<pictures/opgave6Beter-eps-converted-to.pdf, id=29, 421.575pt x 316.18124pt>
+File: pictures/opgave6Beter-eps-converted-to.pdf Graphic file (type pdf)
 
-<use pictures/opgave6-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/opgave6-eps-converted-to.pdf used on input li
-ne 139.
+<use pictures/opgave6Beter-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/opgave6Beter-eps-converted-to.pdf used on inp
+ut line 139.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
 Package epstopdf Info: Source file: <pictures/opgave7arnoldiBeter.eps>
 (epstopdf)                    date: 2014-04-24 20:50:55
@@ -539,9 +540,9 @@ Package pdftex.def Info: pictures/opgave7arnoldiBeter-eps-converted-to.pdf used
 enberg1-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
 a/NMB/pictures/opgave4Hessenberg2-eps-converted-to.pdf>] [5 <C:/Users/Public/Do
 cuments/KUL/3efase/nmb/practica/NMB/pictures/opgave5grafiek-eps-converted-to.pd
-f>] [6 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave6-
-eps-converted-to.pdf>] [7] [8 <C:/Users/Public/Documents/KUL/3efase/nmb/practic
-a/NMB/pictures/opgave7arnoldiBeter-eps-converted-to.pdf>]
+f>] [6 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave6B
+eter-eps-converted-to.pdf>] [7] [8 <C:/Users/Public/Documents/KUL/3efase/nmb/pr
+actica/NMB/pictures/opgave7arnoldiBeter-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 193.
 
 
@@ -588,15 +589,12 @@ Package epstopdf Info: Source file: <pictures/opgave10.eps>
 (epstopdf)                    date: 2014-04-24 11:06:34
 (epstopdf)                    size: 16592 bytes
 (epstopdf)             Output file: <pictures/opgave10-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-24 21:14:51
+(epstopdf)                    size: 4181 bytes
 (epstopdf)             Command: <epstopdf --outfile=pictures/opgave10-eps-conve
 rted-to.pdf pictures/opgave10.eps>
 (epstopdf)             \includegraphics on input line 221.
-runsystem(epstopdf --outfile=pictures/opgave10-eps-converted-to.pdf pictures/op
-gave10.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <pictures/opgave10-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-24 21:14:51
-(epstopdf)                    size: 4181 bytes.
+Package epstopdf Info: Output file is already uptodate.
  <pictures/opgave10-eps-converted-to.pdf, id=72, 561.09625pt x 421.575pt>
 File: pictures/opgave10-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -616,8 +614,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5337 strings out of 493921
- 75145 string characters out of 3144873
- 151358 words of memory out of 3000000
+ 75170 string characters out of 3144873
+ 151367 words of memory out of 3000000
  8512 multiletter control sequences out of 15000+200000
  12566 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -642,7 +640,7 @@ c/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (11 pages, 542684 bytes).
+Output written on practicum1.pdf (11 pages, 390514 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

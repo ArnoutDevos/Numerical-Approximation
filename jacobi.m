@@ -1,4 +1,4 @@
-function [ V,D ] = opgave_9( A,tol )
+function [ V,D ] = jacobi( A,tol )
 V = eye(size(A,1));
 D = A;
 ready = false;

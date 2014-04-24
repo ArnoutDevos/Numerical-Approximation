@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  24 APR 2014 23:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  24 APR 2014 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,26 +497,27 @@ Overfull \hbox (14.63976pt too wide) in paragraph at lines 119--141
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package epstopdf Info: Source file: <pictures/opgave6.eps>
-(epstopdf)                    date: 2014-04-24 21:18:23
-(epstopdf)                    size: 113423 bytes
-(epstopdf)             Output file: <pictures/opgave6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-24 21:18:23
-(epstopdf)                    size: 185068 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/opgave6-eps-conve
-rted-to.pdf pictures/opgave6.eps>
+Package epstopdf Info: Source file: <pictures/opgave6Beter.eps>
+(epstopdf)                    date: 2014-04-24 23:12:41
+(epstopdf)                    size: 30077 bytes
+(epstopdf)             Output file: <pictures/opgave6Beter-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2014-04-24 23:12:41
+(epstopdf)                    size: 32810 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/opgave6Beter-eps-
+converted-to.pdf pictures/opgave6Beter.eps>
 (epstopdf)             \includegraphics on input line 150.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/opgave6-eps-converted-to.pdf, id=31, 421.575pt x 316.18124pt>
-File: pictures/opgave6-eps-converted-to.pdf Graphic file (type pdf)
+<pictures/opgave6Beter-eps-converted-to.pdf, id=31, 421.575pt x 316.18124pt>
+File: pictures/opgave6Beter-eps-converted-to.pdf Graphic file (type pdf)
 
-<use pictures/opgave6-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/opgave6-eps-converted-to.pdf used on input li
-ne 150.
+<use pictures/opgave6Beter-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/opgave6Beter-eps-converted-to.pdf used on inp
+ut line 150.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
  [4 <./pictures/opgave4Hessenberg1-eps-converted-to.pdf> <./pictures/opgave4Hes
-senberg2-eps-converted-to.pdf>]
-[5 <./pictures/opgave5grafiek-eps-converted-to.pdf>]
+senberg2-eps-converted-to.pdf>] [5 <./pictures/opgave5grafiek-eps-converted-to.
+pdf>]
 Package epstopdf Info: Source file: <pictures/opgave7arnoldiBeter.eps>
 (epstopdf)                    date: 2014-04-24 21:18:23
 (epstopdf)                    size: 516375 bytes
@@ -537,16 +538,17 @@ File: pictures/opgave7arnoldiBeter-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: pictures/opgave7arnoldiBeter-eps-converted-to.pdf used
  on input line 158.
 (pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
- [6] [7 <./pictures/opgave6-eps-converted-to.pdf>] [8 <./pictures/opgave7arnold
-iBeter-eps-converted-to.pdf>]
+ [6] [7 <./pictures/opgave6Beter-eps-converted-to.pdf>] [8 <./pictures/opgave7a
+rnoldiBeter-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 204.
 
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-(./jacobi.m
+) (./jacobi.m
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 11.
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
 Overfull \hbox (10.20361pt too wide) in paragraph at lines 25--26
@@ -600,7 +602,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5486 strings out of 493308
- 77070 string characters out of 6137822
+ 77095 string characters out of 6137822
  162435 words of memory out of 5000000
  8821 multiletter control sequences out of 15000+600000
  12566 words of font info for 49 fonts, out of 8000000 for 9000
@@ -627,7 +629,7 @@ ype1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/urw/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (12 pages, 537457 bytes).
+Output written on practicum1.pdf (12 pages, 385285 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams

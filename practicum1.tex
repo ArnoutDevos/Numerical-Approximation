@@ -147,13 +147,13 @@ en eigenwaarde bij het QR-algoritme, $q_m^{(k)}$ en $\mu$ respectievelijk, dezel
 die berekend worden bij de Rayleigh quoti\"{e}nt iteratie met startvector $e_m$. Er wordt dus een Rayleigh quoti\"{e}nt iteratie toegepast op de laatste eigenwaarde van
 A. De Rayleigh quoti\"{e}nt iteratie convergeert kubisch, dus de convergentie van het QR algoritme met Rayleigh shift moet ook kubisch zijn. De Rayleigh shift heeft geen invloed op de andere eigenwaarden, dus er wordt verwacht dat deze lineair convergeren net als bij gelijktijdige iteratie het geval is. Dit is te zien in Figuur ~\ref{fig:opgave6}.
 \begin{figure}
-\centerline{\includegraphics{pictures/opgave6.eps}}
-\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift}
+\centerline{\includegraphics{pictures/opgave6Beter.eps}}
+\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift waarin convergentie naar 6 eigenwaarden getoond wordt om de figuur niet te druk te maken.}
 \label{fig:opgave6}
 \end{figure}
 \opgave{7}
 Als men de \textit{Arnoldi} methode gebruikt op een ijle matrix $A \in \mathbb{R}^{1000\times1000}$ en de Ritz waarden per iteratiestap uitzet dan verkrijgt men Figuur ~\ref{fig:opgave7}.
-Wat opvalt aan het convergentiegedrag is dat er eerst snelle convergentie optreedt naar de grootste eigenwaarde. Wanneer de Ritz waarde in de buurt komt van deze eigenwaarde,wordt de fout tussen de Ritz waarde en de eigenwaarde enkel nog kleiner. Vroege convergentie is te zien aan de lange rode lijnen die niet meer afwijken van een bepaalde waarde. Het convergentiegedrag is lineair en versnelt wanneer er meer eigenwaarden gevonden zijn.
+Wat opvalt aan het convergentiegedrag is dat er eerst snelle convergentie optreedt naar de grootste eigenwaarde. Wanneer de Ritz waarde in de buurt komt van deze eigenwaarde,wordt de fout tussen de Ritz waarde en de eigenwaarde enkel nog kleiner. Vroege convergentie is te zien aan de lange rode lijnen die niet meer afwijken van een bepaalde waarde. Het convergentiegedrag is lineair en versnelt naarmate er meer eigenwaarden gevonden zijn.
 \begin{figure}
 \centerline{\includegraphics{pictures/opgave7arnoldiBeter.eps}}
 \caption{Convergentie van de Ritz waarden naar de eigenwaarden van A.}

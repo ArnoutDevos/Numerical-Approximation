@@ -1,14 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.21)  24 APR 2014 23:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  25 APR 2014 08:58
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **practicum1.tex
-(./practicum1.tex
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
 LaTeX2e <2011/06/27>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,20 +30,26 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/03/24 3.9k The Babel package
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-dutch/dutch.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\dutch.ldf"
 Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/03/24 3.9k Babel common definitions
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 132.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amscls/amsthm.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks14
 \thm@bodyfont=\toks15
@@ -48,24 +61,24 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip45
 \dth@everypar=\toks19
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
 \ex@=\dimen104
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -106,31 +119,31 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks25
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
@@ -138,28 +151,28 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -168,11 +181,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -185,26 +198,22 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/enumerate.sty
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks26
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
 \float@exts=\toks27
@@ -212,13 +221,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks28
 \@floatcapt=\box29
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -234,26 +243,26 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip51
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/varwidth/varwidth.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box30
 \sift@deathcycles=\count109
 \@vwid@loff=\dimen115
 \@vwid@roff=\dimen116
 )
-(./mcode.sty
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\mcode.sty
 Package: `mcode' 1.2 <2005/11/17>
 Package: mcode 2005/11/17 1.2
 mcode: settings optimized for display!
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count110
 \lst@gtempboxa=\box31
 \lst@token=\toks29
@@ -267,18 +276,18 @@ Package color Info: Driver file: pdftex.def on input line 130.
 \lst@lineno=\count115
 \lst@maxwidth=\dimen120
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count116
 \lst@skipnumbers=\count117
 \lst@framebox=\box32
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2014/03/04 1.5c listings configuration
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
-Package: listings 2014/03/04 1.5c (Carsten Heinz)
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -293,7 +302,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -359,13 +368,13 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/algorithms/algorithm.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 \@float@every@algorithm=\toks30
 \c@algorithm=\count118
 )
-(./practicum1.aux
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux
 
 LaTeX Warning: Label `eq1' multiply defined.
 
@@ -379,8 +388,6 @@ LaTeX Warning: Label `eq:const1' multiply defined.
 LaTeX Warning: Label `table:tab2' multiply defined.
 
 )
-\openout1 = `practicum1.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
@@ -395,12 +402,12 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
- (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
 
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen121
@@ -416,152 +423,133 @@ LaTeX Font Info:    ... okay on input line 25.
 )
 \c@lstlisting=\count125
 LaTeX Font Info:    Try loading font information for U+msa on input line 26.
- (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
 Package epstopdf Info: Source file: <pictures/opgave4Hessenberg1.eps>
-(epstopdf)                    date: 2014-04-24 21:18:23
-(epstopdf)                    size: 19861 bytes
+(epstopdf)                    date: 2014-04-12 11:10:15
+(epstopdf)                    size: 21425 bytes
 (epstopdf)             Output file: <pictures/opgave4Hessenberg1-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-04-24 21:18:23
+(epstopdf)                    date: 2014-04-12 11:10:45
 (epstopdf)                    size: 31295 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/opgave4Hessenberg
-1-eps-converted-to.pdf pictures/opgave4Hessenberg1.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave4Hessenberg1
+-eps-converted-to.pdf pictures/opgave4Hessenberg1.eps>
+(epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave4Hessenberg1-eps-converted-to.pdf, id=25, 421.575pt x 316.18124
+<pictures/opgave4Hessenberg1-eps-converted-to.pdf, id=27, 421.575pt x 316.18124
 pt>
 File: pictures/opgave4Hessenberg1-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/opgave4Hessenberg1-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave4Hessenberg1-eps-converted-to.pdf used 
-on input line 98.
+on input line 100.
 (pdftex.def)             Requested size: 189.70699pt x 142.28024pt.
 
-Underfull \hbox (badness 1057) in paragraph at lines 99--99
+Underfull \hbox (badness 1057) in paragraph at lines 101--101
 []\OT1/cmr/m/n/10 Figuur 1: Vorm van de ma-trix
  []
 
 Package epstopdf Info: Source file: <pictures/opgave4Hessenberg2.eps>
-(epstopdf)                    date: 2014-04-24 21:18:23
-(epstopdf)                    size: 10588 bytes
+(epstopdf)                    date: 2014-04-12 11:50:00
+(epstopdf)                    size: 11098 bytes
 (epstopdf)             Output file: <pictures/opgave4Hessenberg2-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-04-24 21:18:23
+(epstopdf)                    date: 2014-04-12 11:50:13
 (epstopdf)                    size: 8301 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/opgave4Hessenberg
-2-eps-converted-to.pdf pictures/opgave4Hessenberg2.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave4Hessenberg2
+-eps-converted-to.pdf pictures/opgave4Hessenberg2.eps>
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave4Hessenberg2-eps-converted-to.pdf, id=26, 421.575pt x 316.18124
+<pictures/opgave4Hessenberg2-eps-converted-to.pdf, id=28, 421.575pt x 316.18124
 pt>
 File: pictures/opgave4Hessenberg2-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/opgave4Hessenberg2-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave4Hessenberg2-eps-converted-to.pdf used 
-on input line 105.
+on input line 107.
 (pdftex.def)             Requested size: 189.70699pt x 142.28024pt.
- [3]
+ [4 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave4Hess
+enberg1-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
+a/NMB/pictures/opgave4Hessenberg2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/opgave5grafiek.eps>
-(epstopdf)                    date: 2014-04-24 21:18:23
-(epstopdf)                    size: 13312 bytes
+(epstopdf)                    date: 2014-04-18 10:28:20
+(epstopdf)                    size: 13815 bytes
 (epstopdf)             Output file: <pictures/opgave5grafiek-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-04-24 21:18:23
+(epstopdf)                    date: 2014-04-18 10:28:26
 (epstopdf)                    size: 4131 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/opgave5grafiek-ep
-s-converted-to.pdf pictures/opgave5grafiek.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave5grafiek-eps
+-converted-to.pdf pictures/opgave5grafiek.eps>
+(epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave5grafiek-eps-converted-to.pdf, id=30, 421.575pt x 316.18124pt>
+<pictures/opgave5grafiek-eps-converted-to.pdf, id=38, 421.575pt x 316.18124pt>
 File: pictures/opgave5grafiek-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/opgave5grafiek-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave5grafiek-eps-converted-to.pdf used on i
-nput line 113.
+nput line 116.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
 
-Overfull \hbox (14.63976pt too wide) in paragraph at lines 119--141
+Overfull \hbox (14.63976pt too wide) in paragraph at lines 122--144
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[5 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave5grafi
+ek-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/opgave6Beter.eps>
-(epstopdf)                    date: 2014-04-24 23:12:41
-(epstopdf)                    size: 30077 bytes
+(epstopdf)                    date: 2014-04-24 21:25:53
+(epstopdf)                    size: 31250 bytes
 (epstopdf)             Output file: <pictures/opgave6Beter-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-04-24 23:12:41
+(epstopdf)                    date: 2014-04-24 21:26:11
 (epstopdf)                    size: 32810 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/opgave6Beter-eps-
-converted-to.pdf pictures/opgave6Beter.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave6Beter-eps-c
+onverted-to.pdf pictures/opgave6Beter.eps>
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/opgave6Beter-eps-converted-to.pdf, id=31, 421.575pt x 316.18124pt>
+
+<pictures/opgave6Beter-eps-converted-to.pdf, id=46, 421.575pt x 316.18124pt>
 File: pictures/opgave6Beter-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/opgave6Beter-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave6Beter-eps-converted-to.pdf used on inp
-ut line 150.
+ut line 154.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
- [4 <./pictures/opgave4Hessenberg1-eps-converted-to.pdf> <./pictures/opgave4Hes
-senberg2-eps-converted-to.pdf>] [5 <./pictures/opgave5grafiek-eps-converted-to.
-pdf>]
 Package epstopdf Info: Source file: <pictures/opgave7arnoldiBeter.eps>
-(epstopdf)                    date: 2014-04-24 21:18:23
-(epstopdf)                    size: 516375 bytes
+(epstopdf)                    date: 2014-04-24 20:50:55
+(epstopdf)                    size: 537169 bytes
 (epstopdf)             Output file: <pictures/opgave7arnoldiBeter-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-04-24 21:18:23
+(epstopdf)                    date: 2014-04-24 20:50:59
 (epstopdf)                    size: 97789 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/opgave7arnoldiBet
-er-eps-converted-to.pdf pictures/opgave7arnoldiBeter.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave7arnoldiBete
+r-eps-converted-to.pdf pictures/opgave7arnoldiBeter.eps>
+(epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/opgave7arnoldiBeter-eps-converted-to.pdf, id=48, 420.57124pt x 316.18
+<pictures/opgave7arnoldiBeter-eps-converted-to.pdf, id=47, 420.57124pt x 316.18
 124pt>
 File: pictures/opgave7arnoldiBeter-eps-converted-to.pdf Graphic file (type pdf)
 
  <use pictures/opgave7arnoldiBeter-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave7arnoldiBeter-eps-converted-to.pdf used
- on input line 158.
+ on input line 162.
 (pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
- [6] [7 <./pictures/opgave6Beter-eps-converted-to.pdf>] [8 <./pictures/opgave7a
-rnoldiBeter-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 204.
-
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./jacobi.m
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 11.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)
-Overfull \hbox (10.20361pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for OML+pcr on input line 30.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlpcr.fd
-File: omlpcr.fd 
-)
-LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 30.
-)
+ [6] [7 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave6
+Beter-eps-converted-to.pdf>] [8 <C:/Users/Public/Documents/KUL/3efase/nmb/pract
+ica/NMB/pictures/opgave7arnoldiBeter-eps-converted-to.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -579,60 +567,85 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 Package epstopdf Info: Source file: <pictures/opgave10.eps>
-(epstopdf)                    date: 2014-04-24 21:18:23
-(epstopdf)                    size: 15962 bytes
+(epstopdf)                    date: 2014-04-24 11:06:34
+(epstopdf)                    size: 16592 bytes
 (epstopdf)             Output file: <pictures/opgave10-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-24 21:18:23
+(epstopdf)                    date: 2014-04-24 21:14:51
 (epstopdf)                    size: 4181 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/opgave10-eps-conv
-erted-to.pdf pictures/opgave10.eps>
-(epstopdf)             \includegraphics on input line 234.
+(epstopdf)             Command: <epstopdf --outfile=pictures/opgave10-eps-conve
+rted-to.pdf pictures/opgave10.eps>
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
- <pictures/opgave10-eps-converted-to.pdf, id=74, 561.09625pt x 421.575pt>
+ <pictures/opgave10-eps-converted-to.pdf, id=71, 561.09625pt x 421.575pt>
 File: pictures/opgave10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/opgave10-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/opgave10-eps-converted-to.pdf used on input l
-ine 234.
+ine 262.
 (pdftex.def)             Requested size: 561.09488pt x 421.57396pt.
- [10] [11 <./pictures/opgave10-eps-converted-to.pdf>] [12] (./practicum1.aux)
+ [10] [11 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgav
+e10-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 268.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\jacobi.m
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 11.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+Overfull \hbox (10.20361pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 30.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
+File: omlpcr.fd 
+)
+LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 30.
+) [12]
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5486 strings out of 493308
- 77095 string characters out of 6137822
- 162435 words of memory out of 5000000
- 8821 multiletter control sequences out of 15000+600000
- 12566 words of font info for 49 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 42i,14n,42p,984b,1153s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/urw/courier/ucrr8a.pfb>
-Output written on practicum1.pdf (12 pages, 385285 bytes).
+ 5389 strings out of 493921
+ 75985 string characters out of 3144873
+ 145755 words of memory out of 3000000
+ 8559 multiletter control sequences out of 15000+200000
+ 12867 words of font info for 50 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,14n,42p,984b,1153s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/cou
+rier/ucrr8a.pfb>
+Output written on practicum1.pdf (12 pages, 413693 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

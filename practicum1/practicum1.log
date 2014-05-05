@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  25 APR 2014 08:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  25 APR 2014 10:02
 entering extended mode
 **practicum1.tex
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
@@ -384,9 +384,6 @@ LaTeX Warning: Label `eq2' multiply defined.
 
 LaTeX Warning: Label `eq:const1' multiply defined.
 
-
-LaTeX Warning: Label `table:tab2' multiply defined.
-
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -614,10 +611,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5389 strings out of 493921
- 75985 string characters out of 3144873
- 145755 words of memory out of 3000000
- 8559 multiletter control sequences out of 15000+200000
+ 5390 strings out of 493921
+ 75997 string characters out of 3144873
+ 145775 words of memory out of 3000000
+ 8560 multiletter control sequences out of 15000+200000
  12867 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,14n,42p,984b,1153s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -643,7 +640,7 @@ fonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/cou
 rier/ucrr8a.pfb>
-Output written on practicum1.pdf (12 pages, 413693 bytes).
+Output written on practicum1.pdf (12 pages, 413382 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

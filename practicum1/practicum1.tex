@@ -12,9 +12,9 @@
 \usepackage{algorithm}
 
 
-\title{Practicum NMB : Eigenwaardenproblemen}
+\title{Numerieke Modellering en Benadering: Practicum 1}
 \author{Jona Beysens \& Arnout Devos}
-\date{vrijdag 25 apil 2014}
+\date{vrijdag 25 april 2014}
 
 \newcommand{\opgave}[1]{\section*{Opgave #1}}
 \newcommand{\dx}{\Delta x}
@@ -42,7 +42,7 @@
 \label{alg:alg1}
 \end{algorithm}
 \ \\
-Algoritme ~\ref{alg:alg1} stelt de gelijktijdige inverse iteratie voor het berekenen van de d kleinste eigenwaarden en bijhorende eigenvectoren van de matrix $A$ voor. Het is een aangepaste versie van de gelijktijdige iteratie waarbij gebruik gemaakt wordt van de inverse van $A$. De inverse wordt echter nooit expliciet berekend maar er wordt telkens een stelsel opgelost naar $Z$. De eigenwaarden van $A^{-1}$ zijn de inversen van de eigenwaarden van $A$ en de eigenvector horende bij $\lambda_i$ is dezelfde als die horende bij $\frac{1}{\lambda_i}$:
+Algoritme ~\ref{alg:alg1} stelt de gelijktijdige inverse iteratie voor het berekenen van de $d$ kleinste eigenwaarden en bijhorende eigenvectoren van de matrix $A$ voor. Het is een aangepaste versie van de gelijktijdige iteratie waarbij gebruik gemaakt wordt van de inverse van $A$. De inverse wordt echter nooit expliciet berekend maar er wordt telkens een stelsel opgelost naar $Z$. De eigenwaarden van $A^{-1}$ zijn de inversen van de eigenwaarden van $A$ en de eigenvector horende bij $\lambda_i$ is dezelfde als die horende bij $\frac{1}{\lambda_i}$:
 \begin{proof}
 \begin{align}
 	Ax &= \lambda x \label{eq1}\\ 
@@ -91,7 +91,7 @@ Ook moet er in elke stap van het algoritme $RQ$ berekend worden. Ook deze bewerk
 \end{enumerate}
 \newpage
 \opgave{4}
-In figuur ~\ref{fig:figure1} zien we de structuur van de matrix \textit{mat1.txt} na reductie naar de Hessenberg vorm. Doordat de matrix niet perfect symmetrisch is, staan er nog waarden in de bovendriehoek die verschillend zijn van 0. Als we kijken naar de grootte van de waarden in die bovendriehoek dan zijn deze allemaal klein. Als we alle waarden die in absolute waarde kleiner dan $10^{-14}$ zijn gelijk aan 0 stellen dan verkrijgen we de vorm in figuur ~\ref{fig:figure2}. Deze tridiagonale vorm is typisch voor reductie van een symmetrische matrix naar een Hessenberg vorm.
+In figuur ~\ref{fig:figure1} zien we de structuur van de matrix \textit{mat1.txt} na reductie naar de Hessenberg vorm. Doordat de matrix niet perfect symmetrisch is, staan er nog waarden in de bovendriehoek die verschillend zijn van 0. Als we kijken naar de grootte van de waarden in die bovendriehoek dan zijn deze allemaal klein. Als we alle waarden die in absolute waarde kleiner dan $10^{-13}$ zijn gelijk aan 0 stellen dan verkrijgen we de vorm in figuur ~\ref{fig:figure2}. Deze tridiagonale vorm is typisch voor reductie van een symmetrische matrix naar een Hessenberg vorm.
 
 Indien de matrix niet gereduceerd zou worden naar Hessenberg vorm, moet in elke iteratie van het QR algoritme de factorisatie berekend worden van een volle matrix. Dit vergt $\mathcal{O}(m^{3})$ flops. De convergentie naar machinenauwkeurigheid $\epsilon _{mach}$ gebeurt meestal in $\mathcal{O}(m)$ stappen wat het totale vereiste werk op $\mathcal{O}(m^{4})$ flops brengt. Het rekenwerk van de QR factorisatie van een matrix in Hessenbergvorm bedraagt $\mathcal{O}(m^{2})$ flops. Hierdoor komt het totale werk op $\mathcal{O}(m^{3})$ flops. Aangezien de Hessenbergvorm van de matrix $mat1.txt$ een tridiagonale vorm heeft zal er zelfs nog minder werk nodig zijn. Het rekenwerk voor een QR factorisatie van een tridiagonale matrix is immers $\mathcal{O}(m)$ flops waarmee het totale rekenwerk op $\mathcal{O}(m^{2})$ flops komt.
 \begin{figure}[H]
@@ -117,7 +117,7 @@ Op figuur ~\ref{fig:opgave5} kunnen we duidelijk zien dat de \textit{QR-methode 
 \caption{Convergentie van de verschillende QR methodes: zonder shift, Rayleigh quoti\"{e}nt shift en Wilkinson shift op logaritmische schaal.}
 \label{fig:opgave5}
 \end{figure}
-In tabel \ref{table:tab2} zien we dat voor de matrix mat1 er voor de \textit{QR iteratie met Rayleigh quoti\"{e}nt shift} en de \textit{QR iteratie met Wilkinson shift} er eerst lineaire convergentie optreedt. Wanneer bij deze algoritmes het residu voldoende klein is geworden, verloopt de convergentie meer en meer kubisch. Dit komt overeen met de theorie die zegt dat $q_m^{(k)}$ kubisch convergeert tot een eigenvector. Daardoo convergeert ook het bijbehorende Rayleigh quoti\"{e}nt $r(q_m^{(k)})=A_{mm}^{(k)}$ kubisch. Naarmate het aantal iteraties toeneemt wordt de invloed van de kubische convergentie steeds groter omdat het aantal elementen dat nog moet convergeren naar een eigenwaarde in elke iteratiestap kleiner wordt.
+In tabel ~\ref{table:tab1} zien we dat voor de matrix mat1 er voor de \textit{QR iteratie met Rayleigh quoti\"{e}nt shift} en de \textit{QR iteratie met Wilkinson shift} er eerst lineaire convergentie optreedt. Wanneer bij deze algoritmes het residu voldoende klein is geworden, verloopt de convergentie meer en meer kubisch. Dit komt overeen met de theorie die zegt dat $q_m^{(k)}$ kubisch convergeert tot een eigenvector. Daardoor convergeert ook het bijbehorende Rayleigh quoti\"{e}nt $r(q_m^{(k)})=A_{mm}^{(k)}$ kubisch. Naarmate het aantal iteraties toeneemt, wordt de invloed van de kubische convergentie steeds groter omdat het aantal elementen dat nog moet convergeren naar een eigenwaarde in elke iteratiestap kleiner wordt.
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
@@ -142,7 +142,7 @@ stap & zonder shift & Rayleigh quoti\"{e}nt shift & Wilkinson shift \\
 \hline
 \end{tabular}
 \caption{Convergentie van het residu bij de berekening van eigenwaarden volgen verschillende methodes.}
-\label{table:tab2}
+\label{table:tab1}
 \end{table}
 \newpage
 \opgave{6}
@@ -152,7 +152,7 @@ die berekend worden bij de Rayleigh quoti\"{e}nt iteratie met startvector $e_m$.
 A. De Rayleigh quoti\"{e}nt iteratie convergeert kubisch, dus de convergentie van het QR algoritme met Rayleigh shift moet ook kubisch zijn. De Rayleigh shift heeft geen invloed op de andere eigenwaarden, dus er wordt verwacht dat deze lineair convergeren net als bij gelijktijdige iteratie het geval is. Dit is te zien in Figuur ~\ref{fig:opgave6}.
 \begin{figure}
 \centerline{\includegraphics{pictures/opgave6Beter.eps}}
-\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift waarin convergentie naar 6 eigenwaarden getoond wordt om de figuur niet te druk te maken.}
+\caption{Convergentie van de norm van de subdiagonale elementen van matrix $mat1$ in het QR algoritme met Rayleigh quoti\"{e}nt shift waarin convergentie voor 6 eigenwaarden getoond wordt om de figuur niet te druk te maken.}
 \label{fig:opgave6}
 \end{figure}
 \opgave{7}

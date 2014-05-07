@@ -11,4 +11,3 @@ A = A + diag(mu(1:n-1),-1);
 
 x = eig(A);
 end
-

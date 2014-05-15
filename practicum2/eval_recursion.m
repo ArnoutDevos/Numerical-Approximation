@@ -12,6 +12,6 @@ function M = eval_recursion(x, n, alpha, beta, lambda)
         M(1:length(x),2) = (x-alpha(1))*lambda(2)*lambda(1);
     else
         L = eval_recursion(x, n-1, alpha, beta, lambda);
-        M = [L ((lambda(n+1)*L(:,n)).*(x'-alpha(n))-beta(n)*L(:,n-1))];
+        M = [L ((lambda(n+1)*L(:,n)).*(x-alpha(n))-beta(n)*L(:,n-1))];
     end
 end

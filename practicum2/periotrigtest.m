@@ -1,25 +1,26 @@
-N = 512;
+N = 256;
 
-t1 = 0:2*pi/(N-1):2*pi;
-c = zeros(1,length(t1),1);
-for k = 1:10
-    c = c + cos(k*t1);
+t1 = 0:1/(N-1):1;
+c = zeros(1:length(t1),1);
+for k = 1:20
+    c = c + sin(k*t1'*2*pi);
 end
 
-M = 1024;
-K = 20;
+M = 256;
+K = 21;
 
-t2 = 0:2*pi/(M-1):2*pi;
-y = periotrig2(c',K,M);
+t2 = 0:1/(M-1):1;
+y = periotrig(c,K,M);
 
 figure(1)
+subplot(3,1,1)
 hold on
-plot(t1,c,'b');
-plot(t2,y,'r');
+plot(t1,c(:,1),'b');
+plot(t2,y(:,1),'r');
 title('Ingevoerde en benaderende functie')
 
-figure(2)
-hold on
+subplot(3,1,2)
 plot(abs(fft(c)),'b');
+subplot(3,1,3)
 plot(abs(fft(y)),'r');
 title('FFTs van ingevoerde en benaderende functie')

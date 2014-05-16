@@ -1,0 +1,59 @@
+\documentclass[a4paper]{article}
+\usepackage[dutch]{babel}
+\usepackage{amsthm,amsmath}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{algpseudocode}
+\usepackage{varwidth}
+\usepackage{mcode}
+\usepackage{algorithm}
+
+
+\title{Numerieke Modellering en Benadering: Practicum 1}
+\author{Jona Beysens \& Arnout Devos}
+\date{vrijdag 25 april 2014}
+
+\newcommand{\opgave}[1]{\section*{Opgave #1}}
+\newcommand{\dx}{\Delta x}
+\newcommand{\dy}{\Delta y}
+\newcommand{\dz}{\Delta z}
+\newcommand{\dt}{\Delta t}
+
+\begin{document}
+\maketitle
+
+\opgave{1}
+
+\begin{algorithm}
+ 
+ \caption{Aangepaste gelijktijdige iteratie}
+\begin{algorithmic}[1]
+\State Kies $Q^{(0)} \in \mathbb{R}^{m\times d}$ met orthonormale kolommen.
+\For {$k = 1,2,...$}
+    \State $AZ=Q^{(k-1)}$
+    \State $Q^{(k)}R^{(k)}=Z$
+    \State $A^{(k)}=Q^{(k)^{T}}AQ^{(k)}$
+\EndFor
+\State $x = diag(A^{(k)})$
+\end{algorithmic}
+\label{alg:alg1}
+\end{algorithm}
+\ \\
+\opgave{2}
+\opgave{3}
+\opgave{4}
+\opgave{5}
+\opgave{6}
+Wanneer alleen de K eerste $X_k$ co\"{e}ffici\"{e}nten behouden worden, worden de hoogste frequenties uit het signaal weggehaald. Dit komt overeen met een laagdoorlaatfiltering van het signaal. Er gaat enkel informatie verloren als er wel degelijk frequenties aanwezig zijn in het oorspronkelijke signaal die co\"{e}ffici\"{e}nten $X_{K+1}, \dots ,X_{\frac{N}{2}}$. verschillend van nul veroorzaken.
+Als voorbeeld beschouwen we een signaal in functie van de tijdsparameter $t$ samengesteld uit 10 verschillende frequenties
+\begin{align}
+c=\sum_{k=1}^{10} \cos{2\pi kt}
+\end{align}
+Wanner dit signaal in $n$ punten gesampled wordt en er daarna de FFT van genomen wordt, bekomt men de  
+\section*{Bijlage 1} 
+\lstinputlisting{periotrig.m}
+\label{bijlage1}
+\end{document}

@@ -1,28 +1,20 @@
 function y = periotrig2(x,K,M)
 %periotrig Summary of this function goes here
 %   Detailed explanation goes here
-Y   = fft(x);
+X   = fft(x);
 %t   = 0:1/M:(M-1);
-[N d]   = size(x);
+N   = size(x,1);
+X(N/2,:)=X(N/2,:)/2;
+    for m=0:(M-1)% voor ieder punt in t
+        y(m+1,:) = X(1,:); % y = Y0
+        
+        for k=2:(K-1)
+            y(m+1,:) = y(m+1,:) + 2*(X(k,:).*cos(2*pi*k*m/M)+1i*X(k,:).*sin(2*pi*k*m/M));
+        end
 
-% Y_(K+1) .. Y_(N/2+1) = 0
-Y(K+1:N/2)=0;
-
-% k = 0,... ,N/2-1
-Y(1:N/2,:) = Y(1:N/2,:)*M/N;
-
-% k = N/2
-Y(N/2+1,:)=Y(N/2+1,:)/2;
-
-% k = N/2+1,... ,M/2
-Y(N/2+2:M/2+1,:)=0;
-
-% steunend op symmetrie
-%Y(M/2+1:M-1,:) = conj(Y(M/2:2,:));
-
-for k = M/2+1:M-1
-    Y = [Y; conj(Y(M-k+1,:))];
-end
-
-y = ifft(Y);
+        if K == N/2
+            y(m+1,:) = y(m+1,:) + X(K,:)*cos(2*pi*K*m/M);
+        end
+    end
+    y = y./N;
 end

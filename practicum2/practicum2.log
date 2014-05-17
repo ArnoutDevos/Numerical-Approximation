@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  17 MAY 2014 23:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  18 MAY 2014 00:04
 entering extended mode
 **practicum2.tex
 
@@ -400,7 +400,20 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subtable=\count121
 )
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum2\practicum2.au
-x)
+x
+
+LaTeX Warning: Label `fig:periotriga' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:periotriga' multiply defined.
+
+
+LaTeX Warning: Label `fig:periotrigb' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:periotrigb' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
@@ -456,14 +469,14 @@ Package epstopdf Info: Source file: <periotriga.eps>
 (epstopdf)                    size: 6602 bytes
 (epstopdf)             Command: <epstopdf --outfile=periotriga-eps-converted-to
 .pdf periotriga.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
 <periotriga-eps-converted-to.pdf, id=18, 807.015pt x 185.69376pt>
 File: periotriga-eps-converted-to.pdf Graphic file (type pdf)
 
 <use periotriga-eps-converted-to.pdf>
-Package pdftex.def Info: periotriga-eps-converted-to.pdf used on input line 66.
+Package pdftex.def Info: periotriga-eps-converted-to.pdf used on input line 65.
 
 (pdftex.def)             Requested size: 345.0025pt x 103.50327pt.
 Package epstopdf Info: Source file: <periotrigb.eps>
@@ -474,14 +487,14 @@ Package epstopdf Info: Source file: <periotrigb.eps>
 (epstopdf)                    size: 8429 bytes
 (epstopdf)             Command: <epstopdf --outfile=periotrigb-eps-converted-to
 .pdf periotrigb.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
 <periotrigb-eps-converted-to.pdf, id=19, 807.015pt x 185.69376pt>
 File: periotrigb-eps-converted-to.pdf Graphic file (type pdf)
 
 <use periotrigb-eps-converted-to.pdf>
-Package pdftex.def Info: periotrigb-eps-converted-to.pdf used on input line 73.
+Package pdftex.def Info: periotrigb-eps-converted-to.pdf used on input line 72.
 
 (pdftex.def)             Requested size: 345.0pt x 79.3849pt.
 Package epstopdf Info: Source file: <periotrigc.eps>
@@ -492,23 +505,79 @@ Package epstopdf Info: Source file: <periotrigc.eps>
 (epstopdf)                    size: 8676 bytes
 (epstopdf)             Command: <epstopdf --outfile=periotrigc-eps-converted-to
 .pdf periotrigc.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
 <periotrigc-eps-converted-to.pdf, id=20, 807.015pt x 185.69376pt>
 File: periotrigc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use periotrigc-eps-converted-to.pdf>
-Package pdftex.def Info: periotrigc-eps-converted-to.pdf used on input line 81.
+Package pdftex.def Info: periotrigc-eps-converted-to.pdf used on input line 80.
 
 (pdftex.def)             Requested size: 345.0pt x 79.3849pt.
+Package epstopdf Info: Source file: <lissajous.eps>
+(epstopdf)                    date: 2014-05-17 23:50:12
+(epstopdf)                    size: 13820 bytes
+(epstopdf)             Output file: <lissajous-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-17 23:52:32
+(epstopdf)                    size: 7038 bytes
+(epstopdf)             Command: <epstopdf --outfile=lissajous-eps-converted-to.
+pdf lissajous.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<lissajous-eps-converted-to.pdf, id=21, 477.785pt x 375.4025pt>
+File: lissajous-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lissajous-eps-converted-to.pdf>
+Package pdftex.def Info: lissajous-eps-converted-to.pdf used on input line 101.
+
+(pdftex.def)             Requested size: 293.2521pt x 230.41005pt.
+Package epstopdf Info: Source file: <infclick.eps>
+(epstopdf)                    date: 2014-05-18 00:03:13
+(epstopdf)                    size: 9372 bytes
+(epstopdf)             Output file: <infclick-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-18 00:03:21
+(epstopdf)                    size: 3574 bytes
+(epstopdf)             Command: <epstopdf --outfile=infclick-eps-converted-to.p
+df infclick.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+<infclick-eps-converted-to.pdf, id=22, 481.8pt x 375.4025pt>
+File: infclick-eps-converted-to.pdf Graphic file (type pdf)
+
+<use infclick-eps-converted-to.pdf>
+Package pdftex.def Info: infclick-eps-converted-to.pdf used on input line 109.
+(pdftex.def)             Requested size: 137.9979pt x 107.52354pt.
+Package epstopdf Info: Source file: <inftrig.eps>
+(epstopdf)                    date: 2014-05-18 00:03:13
+(epstopdf)                    size: 10899 bytes
+(epstopdf)             Output file: <inftrig-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-18 00:03:22
+(epstopdf)                    size: 4734 bytes
+(epstopdf)             Command: <epstopdf --outfile=inftrig-eps-converted-to.pd
+f inftrig.eps>
+(epstopdf)             \includegraphics on input line 115.
+Package epstopdf Info: Output file is already uptodate.
+
+<inftrig-eps-converted-to.pdf, id=23, 477.785pt x 375.4025pt>
+File: inftrig-eps-converted-to.pdf Graphic file (type pdf)
+
+<use inftrig-eps-converted-to.pdf>
+Package pdftex.def Info: inftrig-eps-converted-to.pdf used on input line 115.
+(pdftex.def)             Requested size: 137.9979pt x 108.42287pt.
  [2] [3 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/perio
 triga-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practica/
 NMB/practicum2/periotrigb-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/
-3efase/nmb/practica/NMB/practicum2/periotrigc-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 90.
+3efase/nmb/practica/NMB/practicum2/periotrigc-eps-converted-to.pdf>] [4 <C:/Use
+rs/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/lissajous-eps-conver
+ted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/i
+nfclick-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
+a/NMB/practicum2/inftrig-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 124.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum2\periotrig.m
@@ -523,40 +592,45 @@ LaTeX Font Info:    Try loading font information for TS1+pcr on input line 12.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) [4]
+)) [5]
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum2\practicum2.au
-x) ) 
+x)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6414 strings out of 493921
- 94393 string characters out of 3144873
+ 6432 strings out of 493921
+ 94878 string characters out of 3144873
  168989 words of memory out of 3000000
- 9576 multiletter control sequences out of 15000+200000
- 14412 words of font info for 56 fonts, out of 3000000 for 9000
+ 9590 multiletter control sequences out of 15000+200000
+ 14757 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,9n,42p,575b,1199s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier
-/ucrr8a.pfb>
-Output written on practicum2.pdf (4 pages, 218668 bytes).
+ 42i,9n,42p,589b,1199s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr
+8a.pfb>
+Output written on practicum2.pdf (5 pages, 245492 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

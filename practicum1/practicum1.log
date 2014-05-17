@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  25 APR 2014 10:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  17 MAY 2014 20:39
 entering extended mode
 **practicum1.tex
-(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.tex
+
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1\practicum1.te
+x
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -250,7 +252,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen115
 \@vwid@roff=\dimen116
 )
-(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\mcode.sty
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1\mcode.sty
 Package: `mcode' 1.2 <2005/11/17>
 Package: mcode 2005/11/17 1.2
 mcode: settings optimized for display!
@@ -374,7 +376,8 @@ nment
 \@float@every@algorithm=\toks30
 \c@algorithm=\count118
 )
-(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1\practicum1.au
+x
 
 LaTeX Warning: Label `eq1' multiply defined.
 
@@ -473,9 +476,9 @@ File: pictures/opgave4Hessenberg2-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: pictures/opgave4Hessenberg2-eps-converted-to.pdf used 
 on input line 107.
 (pdftex.def)             Requested size: 189.70699pt x 142.28024pt.
- [4 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave4Hess
-enberg1-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
-a/NMB/pictures/opgave4Hessenberg2-eps-converted-to.pdf>]
+ [4 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum1/pictures/
+opgave4Hessenberg1-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/
+nmb/practica/NMB/practicum1/pictures/opgave4Hessenberg2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/opgave5grafiek.eps>
 (epstopdf)                    date: 2014-04-18 10:28:20
 (epstopdf)                    size: 13815 bytes
@@ -503,8 +506,8 @@ Overfull \hbox (14.63976pt too wide) in paragraph at lines 122--144
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave5grafi
-ek-eps-converted-to.pdf>]
+[5 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum1/pictures/o
+pgave5grafiek-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/opgave6Beter.eps>
 (epstopdf)                    date: 2014-04-24 21:25:53
 (epstopdf)                    size: 31250 bytes
@@ -544,9 +547,10 @@ File: pictures/opgave7arnoldiBeter-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: pictures/opgave7arnoldiBeter-eps-converted-to.pdf used
  on input line 162.
 (pdftex.def)             Requested size: 420.57022pt x 316.18047pt.
- [6] [7 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgave6
-Beter-eps-converted-to.pdf>] [8 <C:/Users/Public/Documents/KUL/3efase/nmb/pract
-ica/NMB/pictures/opgave7arnoldiBeter-eps-converted-to.pdf>]
+ [6] [7 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum1/pictu
+res/opgave6Beter-eps-converted-to.pdf>] [8 <C:/Users/Public/Documents/KUL/3efas
+e/nmb/practica/NMB/practicum1/pictures/opgave7arnoldiBeter-eps-converted-to.pdf
+>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -580,15 +584,14 @@ File: pictures/opgave10-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: pictures/opgave10-eps-converted-to.pdf used on input l
 ine 262.
 (pdftex.def)             Requested size: 561.09488pt x 421.57396pt.
- [10] [11 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/pictures/opgav
-e10-eps-converted-to.pdf>]
+ [10] [11 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum1/pic
+tures/opgave10-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 268.
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\jacobi.m
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1\jacobi.m
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 11.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
@@ -605,14 +608,15 @@ File: omlpcr.fd
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 30.
 ) [12]
-(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1.aux)
+(C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum1\practicum1.au
+x)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  5390 strings out of 493921
- 75997 string characters out of 3144873
+ 76118 string characters out of 3144873
  145775 words of memory out of 3000000
  8560 multiletter control sequences out of 15000+200000
  12867 words of font info for 50 fonts, out of 3000000 for 9000
@@ -640,7 +644,7 @@ fonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/symbols/msbm7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/cou
 rier/ucrr8a.pfb>
-Output written on practicum1.pdf (12 pages, 413382 bytes).
+Output written on practicum1.pdf (12 pages, 413448 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

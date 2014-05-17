@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  16 MAY 2014 22:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  17 MAY 2014 23:02
 entering extended mode
 **practicum2.tex
 
@@ -376,59 +376,137 @@ nment
 \@float@every@algorithm=\toks30
 \c@algorithm=\count118
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@tempdima=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
+)
+\c@ContinuedFloat=\count119
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count120
+\c@subtable=\count121
+)
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum2\practicum2.au
 x)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen121
+\scratchcounter=\count122
+\scratchdimen=\dimen128
 \scratchbox=\box33
-\nofMPsegments=\count120
-\nofMParguments=\count121
+\nofMPsegments=\count123
+\nofMParguments=\count124
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen122
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen129
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks32
 )
-\c@lstlisting=\count125
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+\c@lstlisting=\count128
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-[1
+) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 57.
+Package epstopdf Info: Source file: <periotriga.eps>
+(epstopdf)                    date: 2014-05-17 22:19:58
+(epstopdf)                    size: 13509 bytes
+(epstopdf)             Output file: <periotriga-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-17 22:22:30
+(epstopdf)                    size: 6602 bytes
+(epstopdf)             Command: <epstopdf --outfile=periotriga-eps-converted-to
+.pdf periotriga.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<periotriga-eps-converted-to.pdf, id=18, 807.015pt x 185.69376pt>
+File: periotriga-eps-converted-to.pdf Graphic file (type pdf)
+
+<use periotriga-eps-converted-to.pdf>
+Package pdftex.def Info: periotriga-eps-converted-to.pdf used on input line 66.
+
+(pdftex.def)             Requested size: 345.0025pt x 103.50327pt.
+Package epstopdf Info: Source file: <periotrigb.eps>
+(epstopdf)                    date: 2014-05-17 22:19:58
+(epstopdf)                    size: 15072 bytes
+(epstopdf)             Output file: <periotrigb-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-17 22:22:31
+(epstopdf)                    size: 8429 bytes
+(epstopdf)             Command: <epstopdf --outfile=periotrigb-eps-converted-to
+.pdf periotrigb.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<periotrigb-eps-converted-to.pdf, id=19, 807.015pt x 185.69376pt>
+File: periotrigb-eps-converted-to.pdf Graphic file (type pdf)
+
+<use periotrigb-eps-converted-to.pdf>
+Package pdftex.def Info: periotrigb-eps-converted-to.pdf used on input line 73.
+
+(pdftex.def)             Requested size: 345.0pt x 79.3849pt.
+Package epstopdf Info: Source file: <periotrigc.eps>
+(epstopdf)                    date: 2014-05-17 22:19:58
+(epstopdf)                    size: 15009 bytes
+(epstopdf)             Output file: <periotrigc-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-17 22:22:31
+(epstopdf)                    size: 8676 bytes
+(epstopdf)             Command: <epstopdf --outfile=periotrigc-eps-converted-to
+.pdf periotrigc.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+
+<periotrigc-eps-converted-to.pdf, id=20, 807.015pt x 185.69376pt>
+File: periotrigc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use periotrigc-eps-converted-to.pdf>
+Package pdftex.def Info: periotrigc-eps-converted-to.pdf used on input line 81.
+
+(pdftex.def)             Requested size: 345.0pt x 79.3849pt.
+ [2] [3 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/perio
+triga-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practica/
+NMB/practicum2/periotrigb-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/
+3efase/nmb/practica/NMB/practicum2/periotrigc-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -441,43 +519,44 @@ File: omlpcr.fd
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 12.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) [2]
+)) [4]
 (C:\Users\Public\Documents\KUL\3efase\nmb\practica\NMB\practicum2\practicum2.au
 x) ) 
 Here is how much of TeX's memory you used:
- 5309 strings out of 493921
- 74205 string characters out of 3144873
- 151637 words of memory out of 3000000
- 8489 multiletter control sequences out of 15000+200000
- 12220 words of font info for 48 fonts, out of 3000000 for 9000
+ 6414 strings out of 493921
+ 94393 string characters out of 3144873
+ 168989 words of memory out of 3000000
+ 9576 multiletter control sequences out of 15000+200000
+ 14412 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,8n,42p,425b,1200s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,9n,42p,575b,1199s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-courier/ucrr8a.pfb>
-Output written on practicum2.pdf (2 pages, 178459 bytes).
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier
+/ucrr8a.pfb>
+Output written on practicum2.pdf (4 pages, 218668 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

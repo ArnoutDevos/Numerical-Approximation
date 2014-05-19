@@ -87,7 +87,7 @@ De laagdoorlaatfiltering wordt pas echt duidelijk wanneer $K=5$ wordt gesteld. A
 \opgave{8}
 In Figuur \ref{fig:periotrigclick} wordt een benadering geconstrueerd voor het $\infty$ teken aan de hand van de functies \textit{click()} en \textit{periotrig(x,K,M)}. In de linkse deelfiguur zijn de oorspronkelijke punten weergegeven die met \textit{click()} zijn getekend. De rechterfiguur toont een periodieke interpolerende en benaderende trigonometrische veelterm voor deze punten.
 
-Aangezien het teken $\infty$ zijn oorsprong vindt in de \textit{Lissajousfiguren}, is deze benadering uiterst geschikt omdat de parametrisaties van de volgende vorm zijn:
+Aangezien het teken $\infty$ geschreven kan worden als een speciaal geval (met name \textit{het lemniscaat van Gerono}) van de meer algemene \textit{Lissajousfiguur}, is deze benadering uiterst geschikt omdat de parametrisaties bij een \textit{Lissajousfiguur} van de volgende vorm zijn:
 \begin{equation}
     \centering
         \begin{cases}
@@ -96,12 +96,6 @@ Aangezien het teken $\infty$ zijn oorsprong vindt in de \textit{Lissajousfiguren
         \end{cases}
 \end{equation}
 Wanneer in deze vergelijkingen de waarden $\alpha=1$,$\beta=2\alpha=2$ en $\delta=0$ worden genomen, verkrijgt men Figuur \ref{fig:lissajous}.
-\begin{figure}
-        \centering
-        \includegraphics[width=0.85\textwidth]{lissajous.eps}
-        \caption{Het $\infty$ teken onder de vorm van een Lissajousfiguur}
-        \label{fig:lissajous}
-    \end{figure}
 \begin{figure}
     \centering
     \begin{subfigure}[b]{0.4\textwidth}
@@ -119,6 +113,12 @@ Wanneer in deze vergelijkingen de waarden $\alpha=1$,$\beta=2\alpha=2$ en $\delt
     \hfill
     \caption{$\infty$ teken benaderd}\label{fig:periotrigclick}.
 \end{figure}
+\begin{figure}
+        \centering
+        \includegraphics[width=0.85\textwidth]{lissajous.eps}
+        \caption{Het $\infty$ teken onder de vorm van een Lissajousfiguur}
+        \label{fig:lissajous}
+    \end{figure}
 \newpage
 \section*{Bijlage 1} 
 \lstinputlisting{periotrig.m}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  18 MAY 2014 00:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.24)  19 MAY 2014 18:07
 entering extended mode
 **practicum2.tex
 
@@ -515,66 +515,76 @@ File: periotrigc-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: periotrigc-eps-converted-to.pdf used on input line 80.
 
 (pdftex.def)             Requested size: 345.0pt x 79.3849pt.
-Package epstopdf Info: Source file: <lissajous.eps>
-(epstopdf)                    date: 2014-05-17 23:50:12
-(epstopdf)                    size: 13820 bytes
-(epstopdf)             Output file: <lissajous-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-17 23:52:32
-(epstopdf)                    size: 7038 bytes
-(epstopdf)             Command: <epstopdf --outfile=lissajous-eps-converted-to.
-pdf lissajous.eps>
-(epstopdf)             \includegraphics on input line 101.
-Package epstopdf Info: Output file is already uptodate.
-
-<lissajous-eps-converted-to.pdf, id=21, 477.785pt x 375.4025pt>
-File: lissajous-eps-converted-to.pdf Graphic file (type pdf)
-
-<use lissajous-eps-converted-to.pdf>
-Package pdftex.def Info: lissajous-eps-converted-to.pdf used on input line 101.
-
-(pdftex.def)             Requested size: 293.2521pt x 230.41005pt.
 Package epstopdf Info: Source file: <infclick.eps>
-(epstopdf)                    date: 2014-05-18 00:03:13
-(epstopdf)                    size: 9372 bytes
+(epstopdf)                    date: 2014-05-19 18:07:25
+(epstopdf)                    size: 9180 bytes
 (epstopdf)             Output file: <infclick-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-18 00:03:21
-(epstopdf)                    size: 3574 bytes
+(epstopdf)                    date: 2014-05-19 18:02:12
+(epstopdf)                    size: 3670 bytes
 (epstopdf)             Command: <epstopdf --outfile=infclick-eps-converted-to.p
 df infclick.eps>
-(epstopdf)             \includegraphics on input line 109.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 103.
+runsystem(epstopdf --outfile=infclick-eps-converted-to.pdf infclick.eps)...exec
+uted (allowed).
 
-<infclick-eps-converted-to.pdf, id=22, 481.8pt x 375.4025pt>
+Package epstopdf Info: Result file: <infclick-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-19 18:07:42
+(epstopdf)                    size: 3538 bytes.
+
+<infclick-eps-converted-to.pdf, id=21, 471.7625pt x 375.4025pt>
 File: infclick-eps-converted-to.pdf Graphic file (type pdf)
 
 <use infclick-eps-converted-to.pdf>
-Package pdftex.def Info: infclick-eps-converted-to.pdf used on input line 109.
-(pdftex.def)             Requested size: 137.9979pt x 107.52354pt.
+Package pdftex.def Info: infclick-eps-converted-to.pdf used on input line 103.
+(pdftex.def)             Requested size: 137.9979pt x 109.80908pt.
 Package epstopdf Info: Source file: <inftrig.eps>
-(epstopdf)                    date: 2014-05-18 00:03:13
-(epstopdf)                    size: 10899 bytes
+(epstopdf)                    date: 2014-05-19 18:07:25
+(epstopdf)                    size: 15271 bytes
 (epstopdf)             Output file: <inftrig-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-18 00:03:22
-(epstopdf)                    size: 4734 bytes
+(epstopdf)                    date: 2014-05-19 18:02:12
+(epstopdf)                    size: 8490 bytes
 (epstopdf)             Command: <epstopdf --outfile=inftrig-eps-converted-to.pd
 f inftrig.eps>
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 109.
+runsystem(epstopdf --outfile=inftrig-eps-converted-to.pdf inftrig.eps)...execut
+ed (allowed).
 
-<inftrig-eps-converted-to.pdf, id=23, 477.785pt x 375.4025pt>
+Package epstopdf Info: Result file: <inftrig-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-19 18:07:43
+(epstopdf)                    size: 8626 bytes.
+
+<inftrig-eps-converted-to.pdf, id=22, 471.7625pt x 375.4025pt>
 File: inftrig-eps-converted-to.pdf Graphic file (type pdf)
 
 <use inftrig-eps-converted-to.pdf>
-Package pdftex.def Info: inftrig-eps-converted-to.pdf used on input line 115.
-(pdftex.def)             Requested size: 137.9979pt x 108.42287pt.
+Package pdftex.def Info: inftrig-eps-converted-to.pdf used on input line 109.
+(pdftex.def)             Requested size: 137.9979pt x 109.80908pt.
+Package epstopdf Info: Source file: <lissajous.eps>
+(epstopdf)                    date: 2014-05-19 17:07:33
+(epstopdf)                    size: 13332 bytes
+(epstopdf)             Output file: <lissajous-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-19 17:07:54
+(epstopdf)                    size: 6935 bytes
+(epstopdf)             Command: <epstopdf --outfile=lissajous-eps-converted-to.
+pdf lissajous.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+
+<lissajous-eps-converted-to.pdf, id=23, 474.77374pt x 369.38pt>
+File: lissajous-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lissajous-eps-converted-to.pdf>
+Package pdftex.def Info: lissajous-eps-converted-to.pdf used on input line 118.
+
+(pdftex.def)             Requested size: 293.2521pt x 228.16214pt.
  [2] [3 <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/perio
 triga-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practica/
 NMB/practicum2/periotrigb-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/
 3efase/nmb/practica/NMB/practicum2/periotrigc-eps-converted-to.pdf>] [4 <C:/Use
-rs/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/lissajous-eps-conver
-ted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/i
-nfclick-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practic
-a/NMB/practicum2/inftrig-eps-converted-to.pdf>]
+rs/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/infclick-eps-convert
+ed-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practica/NMB/practicum2/in
+ftrig-eps-converted-to.pdf> <C:/Users/Public/Documents/KUL/3efase/nmb/practica/
+NMB/practicum2/lissajous-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 124.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
@@ -628,7 +638,7 @@ msfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr
 8a.pfb>
-Output written on practicum2.pdf (5 pages, 245492 bytes).
+Output written on practicum2.pdf (5 pages, 250369 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

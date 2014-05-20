@@ -18,10 +18,9 @@ lambda(2) = 1;
 beta = ones(n-1,1);
 
 
-y = zeros(length(t),1);
-for i = 1:length(t)
-y(i) = smith_jona_norec(c,n-1,t(i),alpha,beta,lambda);
-end
+% y = zeros(length(t),1);
+% for i = 1:length(t)
+y = smith_jona_norec(c,n-1,t,alpha,beta,lambda);
 plot(t,cos(t),'g');
 hold on
 plot(t,y,'r');

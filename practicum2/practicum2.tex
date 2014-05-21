@@ -14,7 +14,7 @@
 \usepackage{subcaption}
 
 
-\title{Numerieke Modellering en Benadering: Practicum 1}
+\title{Numerieke Modellering en Benadering: Practicum 2}
 \author{Jona Beysens \& Arnout Devos}
 
 \newcommand{\opgave}[1]{\section*{Opgave #1}}
@@ -27,7 +27,7 @@
 \maketitle
 \date
 \opgave{1}
-De nulpunten van een orthogonale veelterm gebaseerd op de waarden $\alpha_{k}$,$\beta_{k}$ en $\lambda_{k}$ kan gevonden worden door de eigenwaarden te bepalen een $n$ x $n$ tridiagonale matrix \textit{tridag($\nu_{k-1}$; $\alpha_{k}$; $\mu_{k-1}$)} met $\nu_{k} = \frac{\beta_{k+1}}{\lambda_{k+1}}$ en $\mu_{k} = \frac{1}{\lambda_{k}}$. Dit volgt uit \textbf{stelling 3.2.5 Numerieke Modellering en Benadering}.
+De nulpunten van een orthogonale veelterm gebaseerd op de waarden $\alpha_{k}$,$\beta_{k}$ en $\lambda_{k}$ kunnen gevonden worden door de eigenwaarden te bepalen een $n$ x $n$ tridiagonale matrix \textit{tridag($\nu_{k-1}$; $\alpha_{k}$; $\mu_{k-1}$)} met $\nu_{k} = \frac{\beta_{k+1}}{\lambda_{k+1}}$ en $\mu_{k} = \frac{1}{\lambda_{k}}$. Dit volgt uit \textbf{stelling 3.2.5 Numerieke Modellering en Benadering}.
 
 De \textsc{Matlab}-code bevindt zich in bijlage 1.
 \opgave{2}
@@ -41,7 +41,7 @@ De \textsc{Matlab}-code bevindt zich in bijlage 2.
         \label{fig:polynomials}
     \end{figure}
 \opgave{3}
-De interpolerende veelterm $y_{n-1}$ voldoet aan volgende betrekking: $y_{n-1} = \sum\limits_{i=0}^{n-1}c_{i}T_{i}$. Om de co\"effici\"enten $c_{i}$ te vinden moet het stelsel $Mc = B$ met $M_{ij} = \psi_{j}(x_{i})$ en $B_{i} = f(x_{i})$ opgelost worden. Verder moet de veelterm ge\"evalueerd worden in een stel punten $t$. Dit wordt bekomen door het \textit{rekenschema van Smith} uit te werken dat het stel punten. Dit vermijdt de interpolerende veelterm te rangschikken naar opeenvolgende machten van $x$, d.w.z. de co\"effici\"enten $d_{i}$ te bepalen zodat $y_{n-1} = \sum\limits_{i=0}^{n-1}d_{i}x^{i}$ om daarna het \textit{rekenschema van Horner} toe te passen.
+De interpolerende veelterm $y_{n-1}$ voldoet aan volgende betrekking: $y_{n-1} = \sum\limits_{i=0}^{n-1}c_{i}T_{i}$. Om de co\"effici\"enten $c_{i}$ te vinden moet het stelsel $Mc = B$ met $M_{ij} = \psi_{j}(x_{i})$ en $B_{i} = f(x_{i})$ opgelost worden. Verder moet de veelterm ge\"evalueerd worden in een stel punten $t$. Dit wordt bekomen door het \textit{rekenschema van Smith} uit te werken voor dat stel punten. Dit vermijdt de interpolerende veelterm te rangschikken naar opeenvolgende machten van $x$, d.w.z. de co\"effici\"enten $d_{i}$ te bepalen zodat $y_{n-1} = \sum\limits_{i=0}^{n-1}d_{i}x^{i}$ om daarna het \textit{rekenschema van Horner} toe te passen.
 
 De \textsc{Matlab}-code bevindt zich in bijlage 3.
 \opgave{4}
@@ -49,13 +49,13 @@ De \textsc{Matlab}-code bevindt zich in bijlage 3.
 \item
 In figuur \ref{fig:lin_cos} en figuur \ref{fig:cheb_cos} wordt de functie $f_{1}(x) = cos(x)$ benaderd door middel van Chebyshev veeltermen. Zowel de interpolerende veeltermen  (\ref{fig:lin_cos_interpol} en \ref{fig:cheb_cos_interpol}) alsook de corresponderende fouten (\ref{fig:lin_cos_error} en \ref{fig:cheb_cos_error}) worden voorgesteld. 
 
-In figuur \ref{fig:lin_cos} wordt gebruik gemaakt van equidistant verdeelde interpolatiepunten. Hierbij zien we dat de absolute fout afneemt naarmate de graad $n$ stijgt. Vanaf graad 3 valt de interpolerende veelterm bijna volledig samen met de te benaderen functie $f_{1}$. Verder zijn de interpolatiepunten duidelijk zichtbaar op figuur \ref{fig:lin_cos_error}. In de interpolatiepunten wordt de fout immers 0 en dus zakt de curve plots naar beneden.
+In figuur \ref{fig:lin_cos} wordt gebruik gemaakt van equidistant verdeelde interpolatiepunten. Hierbij zien we dat de fout afneemt naarmate de graad $n$ stijgt. Vanaf graad 3 valt de interpolerende veelterm bijna volledig samen met de te benaderen functie $f_{1}$. Verder zijn de interpolatiepunten duidelijk zichtbaar op figuur \ref{fig:lin_cos_error}. In de interpolatiepunten moet de interpolerende veelterm exact door de te benaderen functie gaan waardoor de fout in die punten gelijk aan 0 is.
 
-In figuur \ref{fig:cheb_cos} wordt gebruik gemaakt van de nulpunten van de Chebyshev veelterm van graad $n+1$ als interpolatiepunten. Ook hier zakt de absolute fout bij stijgende graad $n$. Verder zijn de interpolatiepunten op te merken in figuur \ref{fig:cheb_cos_error}. Door het nemen van deze interpolatiepunten kan de fout verkleind worden. Dit is duidelijk te zien in de fout $e_{1}$ horende bij $y_{1}$. Bij equidistant verdeelde interpolatiepunten liggen deze voor graad 1 in de randpunten van het interval. Dit leidt tot een grote fout in het midden van het interval. Bij de nulpunten van Chebyshev veelterm van graad $n+1$ is dit niet het geval. De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld in figuur \ref{fig:error_global_cos}. Vanaf graad $n = 15$ neemt de fout bij equidistante interpolatie punten niet meer af.
+In figuur \ref{fig:cheb_cos} wordt gebruik gemaakt van de nulpunten van de Chebyshev veelterm van graad $n+1$ als interpolatiepunten. Ook hier verkleint de fout bij stijgende graad $n$. Verder zijn de interpolatiepunten op te merken in figuur \ref{fig:cheb_cos_error}. Door het nemen van deze interpolatiepunten kan de fout verkleind worden. Dit is duidelijk te zien in de fout $e_{1}$ horende bij $y_{1}$. Bij equidistant verdeelde interpolatiepunten liggen deze voor graad 1 in de randpunten van het interval. Dit leidt tot een grote fout in het midden van het interval. Bij de nulpunten van de Chebyshev veelterm van graad $n+1$ is dit niet het geval. De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld in figuur \ref{fig:error_global_cos}. Vanaf graad $n = 15$ neemt de fout bij equidistante interpolatie punten niet meer af.
 \item
-In figuur \ref{fig:lin_f2} en figuur \ref{fig:cheb_f2} wordt de functie $f_{2}(t) = \frac{1}{1+6x^{2}}$ benaderd door middel van Chebyshev veeltermen. Zowel de interpolerende veeltermen  (\ref{fig:lin_f2_interpol} en \ref{fig:cheb_f2_interpol}) alsook de corresponderende fouten (\ref{fig:lin_f2_error} en \ref{fig:cheb_f2_error}) worden voorgesteld. In dit geval worden Chebyshev veeltermen van graad $n=1,\dots,9$ gebruikt in plaats van $n=1,\dots,3$ aangezien deze functie $f_{2}$ moeilijker te benaderen is. In figuur \ref{fig:lin_f2_error} wordt de fout bij stijgende graad $n$ vanaf een bepaalde graad niet meer kleiner. Dit komt door het gebruik van equidistant verdeelde interpolatiepunten. Bij de nulpunten van Chebyshev veelterm van graad $n+1$ zakt de fout immers wel (zie figuur \ref{fig:cheb_f2_error}). 
+In figuur \ref{fig:lin_f2} en figuur \ref{fig:cheb_f2} wordt de functie $f_{2}(t) = \frac{1}{1+6t^{2}}$ benaderd door middel van Chebyshev veeltermen. Zowel de interpolerende veeltermen  (\ref{fig:lin_f2_interpol} en \ref{fig:cheb_f2_interpol}) alsook de corresponderende fouten (\ref{fig:lin_f2_error} en \ref{fig:cheb_f2_error}) worden voorgesteld. In dit geval worden Chebyshev veeltermen van graad $n=1,\dots,9$ gebruikt in plaats van $n=1,\dots,3$ aangezien de functie $f_{2}$ moeilijker te benaderen is. Bij gebruik van equidistant verdeelde interpolatiepunten wordt de fout bij stijgende graad $n$ vanaf een bepaalde graad niet meer kleiner (zie figuur \ref{fig:lin_f2_error}). Als we de nulpunten van de Chebyshev veelterm van graad $n+1$ nemen verkleint de fout wel(zie figuur \ref{fig:cheb_f2_error}). 
 
-De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld in figuur \ref{fig:error_global_f2}. Vanaf graad $n=5$ neemt de fout bij equidistante interpolatie punten niet meer af. Het is algemeen zo dat de fout bij hogere graad bij equidistante interpolatiepunten niet meer verkleint. Dit komt door sterke oscillatie tussen de interpolatiepunten aan de randen van het interval. Dit fenomeen is gekend als het \textit{Runge's phenomenon}.
+De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld in figuur \ref{fig:error_global_f2}. Vanaf graad $n=5$ neemt de fout bij equidistante interpolatiepunten niet meer af. Het is algemeen zo dat de fout bij hogere graad bij equidistante interpolatiepunten niet meer verkleint. Dit komt doordat er sterke oscillatie optreedt tussen de interpolatiepunten aan de randen van het interval. Dit fenomeen is gekend als het \textit{Runge's phenomenon}.
 \end{enumerate}
 
 
@@ -64,19 +64,20 @@ De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld 
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/linspace_cos_interpolation.eps}
-        \caption{Interpolerende Chebyshev veeltermen $y_{1},y_{2}$ en $y_{3}$ van respectievelijk graad $n=1,\dots,3$}
+        \caption{Interpolatie door $y_{n}(t)$}
         \label{fig:lin_cos_interpol}
         \vspace*{1cm}
     \end{subfigure}
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/linspace_cos_error.eps}
-        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$ van interpolerende Chebyshev veeltermen $y_{1},y_{2}$ en $y_{3}$ van respectievelijk graad $n=1,\dots,3$}
+        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$}
         \label{fig:lin_cos_error}
         %\vspace*{1cm}
     \end{subfigure}
     \hfill
-    \caption{De functie $f_{1}(t) = cos(t)$ wordt benaderd in equidistant verdeelde interpolatiepunten door middel van Chebyshev veeltermen}\label{fig:lin_cos}.
+    \caption{De functie $f_{1}(t) = cos(t)$ wordt benaderd in equidistant verdeelde interpolatiepunten door middel van Chebyshev veeltermen $y_{1},y_{2}$ en $y_{3}$ van respectievelijk graad $n=1,\dots,3$}
+    \label{fig:lin_cos}.
 \end{figure}
 
 \begin{figure}
@@ -84,16 +85,16 @@ De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld 
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/cheby_cos_interpolation.eps}
-        \caption{Interpolerende Chebyshev veeltermen $y_{1},y_{2}$ en $y_{3}$ van respectievelijk graad $n=1,\dots,3$}
+        \caption{Interpolatie door $y_{n}(t)$}
     \label{fig:cheb_cos_interpol}
     \end{subfigure}
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/cheby_cos_error.eps}
-        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$ van interpolerende Chebyshev veeltermen $y_{1},y_{2}$ en $y_{3}$ van respectievelijk graad $n=1,\dots,3$}
+        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$}
         \label{fig:cheb_cos_error}
     \end{subfigure}
-    \caption{De functie $f_{1}(t) = cos(t)$ wordt benaderd in de nulpunten van de Chebyshev-veelterm van graad $n+1$ door middel van Chebyshev veeltermen}\label{fig:cheb_cos}.
+    \caption{De functie $f_{1}(t) = cos(t)$ wordt benaderd in de nulpunten van de Chebyshev-veelterm van graad $n+1$ door middel van Chebyshev veeltermen $y_{1},y_{2}$ en $y_{3}$ van respectievelijk graad $n=1,\dots,3$}\label{fig:cheb_cos}.
 \end{figure}
 
 \begin{figure}
@@ -101,19 +102,19 @@ De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld 
     \begin{subfigure}[t]{\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/linspace_f2_interpolation.eps}
-        \caption{Interpolerende Chebyshev veeltermen $y_{1},\dots,y_{9}$ van respectievelijk graad $n=1,\dots,9$}
+        \caption{Interpolatie door $y_{n}(t)$}
         \label{fig:lin_f2_interpol}
         %\vspace*{1cm}
     \end{subfigure}
     \begin{subfigure}[t]{\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/linspace_f2_error.eps}
-        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$ van interpolerende Chebyshev veeltermen $y_{1},\dots,y_{9}$ van respectievelijk graad $n=1,\dots,9$}
+        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$}
         \label{fig:lin_f2_error}
         %\vspace*{1cm}
     \end{subfigure}
     \hfill
-    \caption{De functie $f_{2}(t) = \frac{1}{1+6x^{2}}$ wordt benaderd in equidistant verdeelde interpolatiepunten door middel van Chebyshev veeltermen}\label{fig:lin_f2}.
+    \caption{De functie $f_{2}(t) = \frac{1}{1+6t^{2}}$ wordt benaderd in equidistant verdeelde interpolatiepunten door middel van Chebyshev veeltermen $y_{1},\dots,y_{9}$ van respectievelijk graad $n=1,\dots,9$}\label{fig:lin_f2}.
 \end{figure}
 
 \begin{figure}
@@ -121,19 +122,19 @@ De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld 
     \begin{subfigure}[t]{\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/cheby_f2_interpolation.eps}
-        \caption{Interpolerende Chebyshev veeltermen $y_{1},\dots,y_{9}$ van respectievelijk graad $n=1,\dots,9$}
+        \caption{Interpolatie door $y_{n}(t)$}
         \label{fig:cheb_f2_interpol}
         %\vspace*{1cm}
     \end{subfigure}
     \begin{subfigure}[t]{\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/cheby_f2_error.eps}
-        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$ van interpolerende Chebyshev veeltermen $y_{1},\dots,y_{9}$ van respectievelijk graad $n=1,\dots,9$}
+        \caption{De fout $e_{n} = |y_{n}(t)-f(t)|$}
         \label{fig:cheb_f2_error}
         %\vspace*{1cm}
     \end{subfigure}
     \hfill
-    \caption{De functie $f_{2}(t) = \frac{1}{1+6x^{2}}$ wordt benaderd in in de nulpunten van de Chebyshev-veelterm van graad $n+1$ door middel van Chebyshev veeltermen}\label{fig:cheb_f2}.
+    \caption{De functie $f_{2}(t) = \frac{1}{1+6t^{2}}$ wordt benaderd in in de nulpunten van de Chebyshev-veelterm van graad $n+1$ door middel van Chebyshev veeltermen $y_{1},\dots,y_{9}$ van respectievelijk graad $n=1,\dots,9$}\label{fig:cheb_f2}.
 \end{figure}
 
 \begin{figure}
@@ -141,48 +142,36 @@ De evolutie van de maximale fout in functie van graad $n$ wordt ook voorgesteld 
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Jona/error_global_cos.eps}
-        \caption{maximale fout $|y_{n}(t)-f(t)|$ in functie van stijgende graad $n$ voor equidistant verdeelde punten en nulpunten van de Chebyshev-veelterm van graad $n+1$}
+        \caption{benadering van $f_{1}(t) = cos(t)$}
         \label{fig:error_global_cos}
         %\vspace*{1cm}
     \end{subfigure}
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Jona/condition_cos.eps}
-        \caption{conditiegetal $\kappa$ van de matrix $M$ in functie van stijgende graad $n$ voor equidistant verdeelde punten en nulpunten van de Chebyshev-veelterm van graad $n+1$}
-        \label{fig:condition_cos}
-        %\vspace*{1cm}
-    \end{subfigure}
-    \hfill
-    \caption{Karakteristieken van de interpolerende veelterm van $f_{1}(t) = cos(t)$ in functie van de graad $n$}
-    \label{fig:characteristics_cos}
-    \end{figure}
-    
-\begin{figure}
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
         \includegraphics[width=\textwidth]{Jona/error_global_f2.eps}
-        \caption{maximale fout $|y_{n}(t)-f(t)|$ in functie van stijgende graad $n$ voor equidistant verdeelde punten en nulpunten van de Chebyshev-veelterm van graad $n+1$}
+        \caption{benadering van $f_{2}(t) = \frac{1}{1+6t^{2}}$}
         \label{fig:error_global_f2}
         %\vspace*{1cm}
     \end{subfigure}
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Jona/condition_f2.eps}
-        \caption{conditiegetal $\kappa$ van de matrix $M$ in functie van stijgende graad $n$ voor equidistant verdeelde punten en nulpunten van de Chebyshev-veelterm van graad $n+1$}
-        \label{fig:condition_f2}
-        %\vspace*{1cm}
-    \end{subfigure}
     \hfill
-    \caption{Karakteristieken van de interpolerende veelterm van $f_{2}(t) = \frac{1}{1+6x^{2}}$ in functie van de graad $n$}
-    \label{characteristics_f2}
+    \caption{maximale fout $|y_{n}(t)-f(t)|$ in functie van stijgende graad $n$ voor equidistant verdeelde punten en nulpunten van de Chebyshev-veelterm van graad $n+1$}
+    \label{fig:error_global}
+    \end{figure}
+    
+\begin{figure}
+     \centering
+        \includegraphics[width=\textwidth]{Jona/condition_f2.eps}
+        %\vspace*{1cm}
+    \hfill
+    \caption{conditiegetal $\kappa$ van de matrix $M$ in functie van stijgende graad $n$}
+	\label{fig:condition}
     \end{figure}    
 \opgave{5}
-Het conditiegetal $\kappa$ van de matrix M wordt voorgesteld in figuur \ref{fig:condition_cos} en figuur \ref{fig:condition_f2}. De matrix horende bij de benadering van $f_{1}$ en $f_{2}$ heeft nagenoeg hetzelfde conditiegetal. Het conditiegetal stijgt bij gebruik van equidistante interpolatiepunten omdat de functiewaarden van de basis Chebyshev veeltermen dichter bij elkaar komen te liggen bij een stijgend aantal interpolatiepunten. Hierdoor worden de kolommen van $M$ meer en meer afhankelijk. Dit resulteert in een stijgend conditiegetal. Door de nulpunten van de Chebyshev veelterm te nemen blijft het conditiegetal klein en constant.
+Het conditiegetal $\kappa$ van de matrix M wordt voorgesteld in figuur \ref{fig:condition}. Het conditiegetal is een maat voor orthogonaliteit. Het conditiegetal stijgt bij gebruik van equidistante interpolatiepunten en blijft klein en constant bij gebruik van nulpunten van de Chebyshev veelterm.  Dit geeft een indicatie dat de ge\"evalueerde Chebyshev veeltermen in equidistant verdeelde interpolatiepunten $\psi_{j}(x_{i})$ niet orthogonaal zijn ten op zichte van een bepaalde gewichtsfunctie. Bij het gebruik van de nulpunten van de Chebyshev veelterm is dit wel het geval.
 
-Een groot conditiegetal betekent dat het resultaat van een kleine perturbatie op de elementen van $M$ sterk afwijkt van het oorspronkelijk resultaat. De co\"effici\"enten $c_{i}$ zullen dus sterk veranderen bij een kleine wijziging op de interpolatiepunten. Hierdoor zal de veelterm in de intervallen rond de interpolatiepunten wijzigen. In de interpolatiepunten zal de wijziging ongeveer gelijk zijn aan de perturbatie aangezien de interpolatievoorwaarde($y_{n}(x_{i}) = f(x_{i})$)nog steeds voldaan moet worden.
+Een groot conditiegetal betekent dat het resultaat van een kleine perturbatie op de elementen van $M$ sterk kan afwijken van het oorspronkelijk resultaat. De co\"effici\"enten $c_{i}$ zullen dus sterk kunnen veranderen bij een kleine wijziging op de interpolatiepunten. Hierdoor zal de veelterm in de intervallen rond de interpolatiepunten kunnen wijzigen. In de interpolatiepunten zal de wijziging ongeveer gelijk zijn aan de perturbatie aangezien de interpolatievoorwaarde $y_{n}(x_{i}) = f(x_{i})$ nog steeds voldaan moet worden.
 
-Als we aannemen dat het stelsel in \textsc{Matlab} achterwaarts stabiel wordt opgelost, dan hangt de nauwkeurigheid van de interpolerende veelterm af van het conditiegetal. Dit wordt uiteengezet in \textbf{Theorem 15.1 Trefethen and Bau}. Als het conditiegetal stijgt, dan zal de nauwkeurigheid zakken en dus de fout op de co\"effici\"enten vergroten. Dit betekent niet noodzakelijk dat ook de nauwkeurigheid van interpolerende veelterm zal verminderen. In figuur \ref{fig:characteristics_cos} stijgt het conditiegetal ook voor equidistant verdeelde interpolatiepunten maar toch neemt de fout ook nog af. In figuur \ref{characteristics_f2} neemt de nauwkeurigheid van de interpolerende veelterm wel af. 
+Als we aannemen dat het stelsel in \textsc{Matlab} achterwaarts stabiel wordt opgelost, dan hangt de nauwkeurigheid van de interpolerende veelterm af van het conditiegetal. Dit wordt uiteengezet in \textbf{Theorem 15.1 Trefethen and Bau}. Als het conditiegetal stijgt, dan zal de nauwkeurigheid zakken en dus de fout op de co\"effici\"enten vergroten. Dit betekent niet noodzakelijk dat ook de nauwkeurigheid van de interpolerende veelterm zal verminderen. Voor equidistant verdeelde interpolatiepunten stijgt het conditie getal maar toch neemt de interpolatiefout af tot en met graad $n=15$ (zie figuur \ref{fig:error_global_cos}). Vanwege de moeilijker te benaderen functie $f_{2}$ neemt de nauwkeurigheid van bijhorende interpolerende veelterm wel af (zie figuur \ref{fig:error_global_f2}). 
 \opgave{6}
 De opbouw van het algoritme is als volgt:
 \paragraph*{}
